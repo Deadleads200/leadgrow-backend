@@ -1,0 +1,52 @@
+[
+  {
+    "_id": "6950eee660eb0acc98b1d464",
+    "type": "home",
+    "metaTitle": "GrowLead – AI-Powered Lead Generation & Business Growth Platform",
+    "metaDescription": "GrowLead helps businesses generate high-quality leads using AI-powered automation. Capture, convert, and scale faster with data-driven growth tools.",
+    "metaKeywords": "AI lead generation, smart lead automation, business growth platform, lead management software, AI marketing tools, GrowLead",
+    "updatedAt": "2026-01-05T08:31:54.206Z",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.528Z"
+  },
+  {
+    "_id": "6950eef060eb0acc98b1d465",
+    "type": "pricing",
+    "metaTitle": "GrowLead Pricing – Affordable AI Lead Generation Plans",
+    "metaDescription": "Explore GrowLead pricing plans designed for startups and businesses. Choose flexible AI-powered lead generation plans that scale with your growth.",
+    "metaKeywords": "GrowLead pricing, AI lead generation cost, SaaS pricing plans, marketing automation pricing, lead generation software pricing",
+    "updatedAt": "2025-12-31T08:45:19.222Z",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.529Z"
+  },
+  {
+    "_id": "6950ef0160eb0acc98b1d466",
+    "type": "contact",
+    "metaTitle": "Contact GrowLead – Get Support for AI Lead Generation",
+    "metaDescription": "Contact GrowLead for sales inquiries, support, or partnerships. Our team is ready to help you grow smarter with AI-powered lead generation.",
+    "metaKeywords": "contact GrowLead, lead generation support, AI marketing help, business growth support, SaaS contact page",
+    "updatedAt": "2025-12-31T08:44:11.021Z",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.529Z"
+  },
+  {
+    "_id": "6950ef0e60eb0acc98b1d467",
+    "type": "blog",
+    "metaTitle": "GrowLead Blog – AI Lead Generation & Growth Marketing Insights",
+    "metaDescription": "Read the GrowLead blog for expert insights on AI lead generation, automation, conversion optimization, and data-driven marketing strategies.",
+    "metaKeywords": "lead generation blog, AI marketing blog, growth marketing tips, automation strategies, SaaS marketing insights, GrowLead blog",
+    "updatedAt": "2025-12-31T08:44:36.465Z",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.529Z"
+  },
+  {
+    "_id": "6950ef1960eb0acc98b1d468",
+    "type": "faq",
+    "metaTitle": "How GrowLead Works – AI-Powered Lead Generation Explained",
+    "metaDescription": "Learn how GrowLead uses AI and automation to identify, qualify, and convert high-quality leads for faster business growth.",
+    "metaKeywords": "how AI lead generation works, GrowLead process, lead automation workflow, AI marketing system, data-driven lead generation",
+    "updatedAt": "2025-12-31T08:45:49.576Z",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.529Z"
+  }
+]

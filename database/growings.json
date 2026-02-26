@@ -1,0 +1,38 @@
+[
+  {
+    "_id": "694bc3b7a0ed41f52f001741",
+    "label": "Average Feedback Score",
+    "description": "High customer satisfaction score",
+    "count": 120,
+    "createdAt": "2025-12-24T10:43:03.161Z",
+    "updatedAt": "2025-12-29T07:10:12.625Z",
+    "__v": 0
+  },
+  {
+    "_id": "694bd385ecca0ae3ac962968",
+    "label": "Happy Customers",
+    "description": "Reliable support for all",
+    "count": 72,
+    "createdAt": "2025-12-24T11:50:29.488Z",
+    "updatedAt": "2025-12-29T07:09:11.200Z",
+    "__v": 0
+  },
+  {
+    "_id": "694e1106816dd565e25e0688",
+    "label": "Engaged Users",
+    "description": "Growing active user base",
+    "count": 33,
+    "createdAt": "2025-12-26T04:37:26.608Z",
+    "updatedAt": "2025-12-29T07:08:17.222Z",
+    "__v": 0
+  },
+  {
+    "_id": "694e4cbbce1075f175c15d51",
+    "label": "Qualified Leads",
+    "description": "AI-powered lead results",
+    "count": 50,
+    "createdAt": "2025-12-26T08:52:11.252Z",
+    "updatedAt": "2025-12-29T07:07:48.439Z",
+    "__v": 0
+  }
+]

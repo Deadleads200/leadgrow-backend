@@ -1,0 +1,72 @@
+[
+  {
+    "_id": "6950ed5760eb0acc98b1d451",
+    "type": "testimonials",
+    "title": "Our Clients Achievements",
+    "shortDescription": "Discover our clients achievements and learn how our services consistently deliver measurable growth, real results, and business success.",
+    "label": "TESTIMONIALS",
+    "updatedAt": "2025-12-29T11:29:49.258Z",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.506Z"
+  },
+  {
+    "_id": "6950edad60eb0acc98b1d452",
+    "type": "blogs",
+    "title": "Expert Advice for Generating Quality Leads",
+    "shortDescription": "Explore expert insights, tips, and strategies on lead generation, AI tools, and smart marketing practices to grow your business efficiently.",
+    "label": "BLOGS",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.506Z",
+    "updatedAt": "2026-01-06T11:07:51.506Z"
+  },
+  {
+    "_id": "6950edc260eb0acc98b1d453",
+    "type": "faq",
+    "title": "Your Lead Generation Questions, Answered",
+    "shortDescription": "Get clear, simple answers to all your lead generation questions, helping you understand our AI system, features, processes, and results effortlessly",
+    "label": "FAQ",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.506Z",
+    "updatedAt": "2026-01-06T11:07:51.506Z"
+  },
+  {
+    "_id": "6950edcb60eb0acc98b1d454",
+    "type": "subscriptions",
+    "title": "Custom Subscriptions for Every Requirement",
+    "shortDescription": "Pick a subscription tailored for every requirement — enjoy flexibility with a free start and upgrade as your business grows.",
+    "label": "SUBSCRIPTIONS",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.506Z",
+    "updatedAt": "2026-01-06T11:07:51.506Z"
+  },
+  {
+    "_id": "6950ede360eb0acc98b1d455",
+    "type": "functions",
+    "title": "Advanced AI Lead Tools",
+    "shortDescription": "Advanced AI lead tools that simplify searching, filter real prospects, and provide high-intent leads instantly for faster, smarter business conversions.",
+    "label": "FUNCTIONS",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.506Z",
+    "updatedAt": "2026-01-06T11:07:51.506Z"
+  },
+  {
+    "_id": "6950edf560eb0acc98b1d456",
+    "type": "growleadworking",
+    "title": "Simplify Lead Generation through GrowLead AI",
+    "shortDescription": "GrowLead AI makes lead generation effortless by delivering accurate, targeted, high-quality leads using intelligent automation, smart filters, and real-time data processing.",
+    "label": "GROWLEAD WORKING SYSTEM",
+    "updatedAt": "2025-12-29T12:32:43.301Z",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.506Z"
+  },
+  {
+    "_id": "6950ee0560eb0acc98b1d457",
+    "type": "growing",
+    "title": "Made for Growth, Loved by Leads",
+    "shortDescription": "An advanced AI-driven lead generation platform built to accelerate business growth by delivering real, targeted, high-quality leads with automation and precision.",
+    "label": "GROWING",
+    "__v": 0,
+    "createdAt": "2026-01-06T11:07:51.506Z",
+    "updatedAt": "2026-01-06T11:07:51.506Z"
+  }
+]

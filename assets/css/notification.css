@@ -1,0 +1,33 @@
+.form-label {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+}
+
+.form-control, .form-select {
+    padding: 0.75rem 1rem;
+}
+
+.form-control:focus, .form-select:focus {
+    box-shadow: none;
+    border-color: #4f46e5;
+}
+
+/* Submit Button */
+.btn-submit-custom {
+    color: white;
+    font-weight: 600;
+    padding: 0.8rem;
+    border: none;
+}
+
+/* Quill */
+#quillToolbar {
+    background: #f8f9fa;
+    border-bottom: none;
+    border-radius: 0.375rem 0.375rem 0 0;
+}
+
+#quillEditor {
+    border: 1px solid #ced4da;
+    border-radius: 0 0 0.375rem 0.375rem;
+}

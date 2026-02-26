@@ -1,0 +1,20 @@
+[
+  {
+    "_id": "6930169cb57ca934134390ce",
+    "companyName": "GrowLead",
+    "contactAddress": "Street Nomber 102, London, United State",
+    "contactNumber": "+1 23456789",
+    "emailAddress": "support@growlead.com",
+    "facebook": "https://www.facebook.com/",
+    "instagram": "https://www.instagram.com/",
+    "twitter": "https://x.com/",
+    "linkedin": "https://in.linkedin.com/",
+    "logo": "/uploads/contact/1767509967162-6401205.png",
+    "favicon": "/uploads/contact/1767095613659-720139694.png",
+    "currency": "USD",
+    "currencySymbol": "$",
+    "email": "support@gamil.com",
+    "password": "your_password",
+    "__v": 0
+  }
+]

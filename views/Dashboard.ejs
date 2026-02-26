@@ -1,0 +1,350 @@
+<%- include('includes/header', {username: admin[0].name,email: admin[0].email } ) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+      <div class="row g-3">
+        <!-- TOTAL USERS -->
+        <div class="col-xxl-3 col-md-6">
+          <div class="card border-top border-dark position-relative">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h4 class="card-title fs-7">
+                    <%= Usercount %>
+                  </h4>
+                  <p class="card-subtitle text-dark">Total Users</p>
+                </div>
+                <span class="text-dark display-6">
+                  <i class="bi bi-people text-dark"></i>
+                </span>
+              </div>
+              <a href="/allusers" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- ACTIVE USERS -->
+        <div class="col-xxl-3 col-md-6">
+          <div class="card border-top border-success position-relative">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h4 class="card-title fs-7 text-success">
+                    <%= activeUsers %>
+                  </h4>
+                  <p class="card-subtitle text-success">Active Users</p>
+                </div>
+                <span class="text-success display-6">
+                  <i class="bi bi-person-check"></i>
+                </span>
+              </div>
+              <a href="/activeusers" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- EMAIL VERIFIED -->
+        <div class="col-xxl-3 col-md-6">
+          <div class="card border-top border-info position-relative">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h4 class="card-title fs-7 text-info">
+                    <%= emailVerifiedUsers %>
+                  </h4>
+                  <p class="card-subtitle text-info">Email Not Verified Users</p>
+                </div>
+                <span class="text-info display-6">
+                  <i class="bi bi-person-check-fill"></i>
+                </span>
+              </div>
+              <a href="/allusers" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+
+        <!-- BANNED USERS -->
+        <div class="col-xxl-3 col-md-6">
+          <div class="card border-top border-danger position-relative">
+            <div class="card-body">
+              <div class="d-flex align-items-center justify-content-between">
+                <div>
+                  <h4 class="card-title fs-7 text-danger">
+                    <%= bannedusers %>
+                  </h4>
+                  <p class="card-subtitle text-danger">Banned Users</p>
+                </div>
+                <span class="text-danger display-6">
+                  <i class="bi bi-person-slash"></i>
+                </span>
+              </div>
+              <a href="/bannedusers" class="stretched-link"></a>
+            </div>
+          </div>
+        </div>
+
+
+
+
+     
+
+          <div class="col-12">
+             <div class="card w-100">
+      <div class="card-body">
+
+   <div class="row g-3">
+                
+                <div class="dashboard-title">
+                  <div class="d-flex justify-content-between align-items-start mb-4">
+                    <div>
+                      <h5 class="card-title fw-semibold text-dark mb-1">Dashboard Summary</h5>
+                    </div>
+                  </div>
+                </div>
+
+                <!-- CARD 3 : SUCCESS PAYMENTS -->
+                <div class="col-sm-6 col-lg-2">
+                  <a href="/successfulpayment" class="text-decoration-none text-dark">
+                    <div class="stat-card card-category">
+                      <div class="icon-circle icon-category">
+                        <i class="fa-solid fa-circle-check"></i>
+                      </div>
+                      <div class="stat-number">
+                        <%= todaySuccessPaymentAmount || 0 %>
+                      </div>
+                      <div class="stat-label">Success Payments</div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- CARD 2 : PENDING PAYMENTS -->
+                <div class="col-sm-6 col-lg-2">
+                  <a href="/pendingpayment" class="text-decoration-none text-dark">
+                    <div class="stat-card card-products">
+                      <div class="icon-circle icon-products2">
+                        <i class="fas fa-spinner fa-lg "></i>
+                      </div>
+                      <div class="stat-number">
+                        <%= todayPendingPaymentCount || 0 %>
+                      </div>
+                      <div class="stat-label">Initiated Payments</div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <!-- CARD 4 : FAILED PAYMENTS -->
+                <div class="col-sm-6 col-lg-2">
+                  <a href="/rejectedpayment" class="text-decoration-none text-dark">
+                    <div class="stat-card card-new-customers">
+                      <div class="icon-circle icon-new-customers">
+                        <i class="fa-solid fa-circle-xmark"></i>
+                      </div>
+                      <div class="stat-number">
+                        <%= todayFailedPaymentCount || 0 %>
+                      </div>
+                      <div class="stat-label">Rejected Payments</div>
+                    </div>
+                  </a>
+                </div>
+
+
+                <!-- CARD 5 : PENDING TICKETS -->
+                <div class="col-sm-6 col-lg-2">
+                  <a href="/pendingtickets" class="text-decoration-none text-dark">
+                    <div class="stat-card card-products2">
+                      <div class="icon-circle icon-products3">
+                        <i class="fa-solid fa-ticket"></i>
+                      </div>
+                      <div class="stat-number">
+                        <%= todayPendingTickets || 0 %>
+                      </div>
+                      <div class="stat-label">Open Tickets</div>
+                    </div>
+                  </a>
+                </div>
+
+                <div class="col-sm-6 col-lg-2">
+                  <a href="/closedtickets" class="text-decoration-none text-dark">
+                    <div class="stat-card card-products3">
+                      <div class="icon-circle icon-customers">
+                        <i class="fa-solid fa-user"></i>
+                      </div>
+                      <div class="stat-number">
+                        <%= todayCloseTickets %>
+                      </div>
+                      <div class="stat-label">Closed Tickets</div>
+                    </div>
+                  </a>
+                </div>
+
+                <!-- CARD 6 : TODAY PLANS -->
+                <div class="col-sm-6 col-lg-2">
+                  <a href="/pricingplan" class="text-decoration-none text-dark">
+                    <div class="stat-card card-category2">
+                      <div class="icon-circle icon-category2">
+                        <i class="bi bi-bookmark-plus"></i>
+                      </div>
+                      <div class="stat-number">
+                        <%= todayPlans || 0 %>
+                      </div>
+                      <div class="stat-label">Plans Added</div>
+                    </div>
+                  </a>
+                </div>
+</div>
+              </div>
+          </div>
+
+        </div>
+
+      </div>
+
+
+      <!-- Yearly Sales Every month -->
+
+      <div class="row mt-5">
+        <div class="col-md-6 col-lg-8 d-flex align-items-stretch">
+          <div class="card w-100">
+            <div class="card-body">
+
+              <!-- Filter Controls -->
+              <div class="d-flex flex-wrap justify-content-between mb-2 align-items-center gap-2">
+                <div>
+                  <h4 class="card-title fw-semibold">
+                    Sales Overview
+                  </h4>
+                  <p class="card-subtitle text-muted">
+                    <% if(filter==='custom' && filterStart && filterEnd) { %>
+                      Range: <%= filterStart %> to <%= filterEnd %>
+                          <% } else if(filter==='today' ) { %>
+                            Today's Data
+                            <% } else if(filter==='yesterday' ) { %>
+                              Yesterday's Data
+                              <% } else if(filter==='lastMonth' ) { %>
+                                Last Month Data
+                                <% } else { %>
+                                  <%= currentYear %> Yearly Payments
+                                    <% } %>
+                  </p>
+                </div>
+                <!-- Filter Dropdown -->
+                 <div class="d-flex">
+                <select id="paymentFilter" class="form-select w-auto me-1">
+                  <option value="yearly" <%=filter==='yearly' ? 'selected' : '' %>>Yearly</option>
+                  <option value="today" <%=filter==='today' ? 'selected' : '' %>>Today</option>
+                  <option value="yesterday" <%=filter==='yesterday' ? 'selected' : '' %>>Yesterday</option>
+                  <option value="week" <%=filter==='week' ? 'selected' : '' %>>This Week</option>
+                  <option value="lastMonth" <%=filter==='lastMonth' ? 'selected' : '' %>>Last Month</option>
+                  <option value="custom" <%=filter==='custom' ? 'selected' : '' %>>Custom</option>
+                </select>
+
+                <!-- Custom Date Inputs (Only visible if 'Custom' is selected) -->
+                <div id="customDateContainer"
+                  class="<%= filter === 'custom' ? 'd-flex' : 'd-none' %> align-items-center gap-2">
+                  <input type="date" id="customStart" class="form-control form-control-sm"
+                    value="<%= typeof filterStart !== 'undefined' ? filterStart : '' %>">
+                  <span class="text-muted">-</span>
+                  <input type="date" id="customEnd" class="form-control form-control-sm"
+                    value="<%= typeof filterEnd !== 'undefined' ? filterEnd : '' %>">
+                  <button id="applyCustomFilter" class="btn btn-sm btn-primary">Go</button>
+                </div>
+</div>
+              </div>
+
+              <!-- Chart Container -->
+              <div>
+
+                <div id="salary" class="mb-7 pb-8 mx-n4"></div>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="card w-100">
+            <div class="card-body">
+              <div>
+                <h4 class="card-title fw-semibold">Browser Details</h4>
+              </div>
+              <!-- Add style with min-height -->
+              <div id="team-performance" style="height: 350px;"></div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      <!-- Yearly Sales Every month end -->
+
+
+
+
+
+
+
+      <!-- Sales Overview Every month -->
+
+      <!-- Top Category -->
+      <div class="row">
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="card w-100">
+            <div class="card-body">
+              <h4 class="card-title fw-semibold">Top Category</h4>
+              <div id="sales-overview" class="mb-4"></div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Top Countries Register by user -->
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="card w-100">
+            <div class="card-body">
+              <h4 class="card-title fw-semibold">Top Countries Register by user</h4>
+              <div id="sales-overview-two" class="mb-4"></div>
+            </div>
+          </div>
+        </div>
+
+        <!--  Plans used by user  -->
+        <div class="col-md-6 col-lg-4 d-flex align-items-stretch">
+          <div class="card w-100">
+            <div class="card-body">
+              <h4 class="card-title fw-semibold">Plans used by user</h4>
+              <div id="sales-overview-three" class="mb-4"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- Sales Overview Every month -->
+
+
+
+    </div>
+
+  </div>
+  </div>
+
+  <script>
+    window.YEARLY_SALES_DATA = <%- JSON.stringify(yearlySales || []) %>;
+    window.topPlans = <%- JSON.stringify(topPlans || []) %>;
+    window.TOP_CATEGORIES = <%- JSON.stringify(topCategories || []) %>;
+    window.TOP_COUNTRIES_PER_CATEGORY = <%- JSON.stringify(topCountriesPerCategory || []) %>;
+
+    // Pass current filter values to keep UI in sync
+    window.CURRENT_FILTER = "<%= filter || 'yearly' %>";
+    window.CURRENT_START_DATE = "<%= filterStart || '' %>";
+    window.CURRENT_END_DATE = "<%= filterEnd || '' %>";
+
+  </script>
+  <script src="/libs/apexcharts/dist/apexcharts.min.js"></script>
+  <script src="/js/dashboards/dashboard5.js"></script>
+  <script src="/js/dashboards/dashboard2.js"></script>
+  <script>
+    window.osChartData = <%- JSON.stringify(osChartData || { labels: [], series: [] }) %>;
+
+  </script>
+
+
+  <script src="/libs/apexcharts/dist/apexcharts.min.js"></script>
+  <%- include('includes/allscripts') %>

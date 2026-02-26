@@ -1,0 +1,46 @@
+[
+  {
+    "_id": "692ff503b57ca93413438e18",
+    "image": "/uploads/review/1765780464348-322025183.png",
+    "name": "John Shepherd",
+    "username": "@john25shepherd",
+    "review": "GrowLead completely transformed our lead generation process. The AI-powered tools helped us target the right audience, resulting in higher conversions and measurable growth. Our business has never experienced such efficiency and quality leads before",
+    "rating": 4,
+    "createdAt": "2025-12-03T08:29:55.241Z",
+    "updatedAt": "2025-12-15T06:34:24.397Z",
+    "__v": 0
+  },
+  {
+    "_id": "692ff65db57ca93413438e31",
+    "image": "/uploads/review/1765780449986-857313332.png",
+    "name": "Henry",
+    "username": "@henry.herry",
+    "review": "Thanks to GrowLead, our sales team receives real-time, verified leads daily. Intelligent filtering and automation save countless hours, and the global coverage expanded our outreach, allowing us to grow faster than ever before",
+    "rating": 5,
+    "createdAt": "2025-12-03T08:35:41.852Z",
+    "updatedAt": "2025-12-15T06:34:10.023Z",
+    "__v": 0
+  },
+  {
+    "_id": "692ff754b57ca93413438e4a",
+    "image": "/uploads/review/1765780433484-559922609.png",
+    "name": "Elijha Davis",
+    "username": "@davis.elijha1",
+    "review": "Our company achieved remarkable growth using GrowLead’s platform. Smart automation, precise filtering, and instant data delivery provided us with high-quality leads consistently. The result: higher sales, better engagement, and tangible ROI within a few weeks",
+    "rating": 3,
+    "createdAt": "2025-12-03T08:39:48.588Z",
+    "updatedAt": "2025-12-15T06:33:53.522Z",
+    "__v": 0
+  },
+  {
+    "_id": "692ff91ab57ca93413438e63",
+    "image": "/uploads/review/1765780418345-176727610.png",
+    "name": "Emily Wilson",
+    "username": "@emily23wilson",
+    "review": "GrowLead’s AI-driven solutions made lead generation effortless. The platform delivers accurate, high-intent leads instantly, enabling our marketing campaigns to perform better. We’ve seen significant improvement in conversion rates and overall business efficiency",
+    "rating": 5,
+    "createdAt": "2025-12-03T08:47:22.716Z",
+    "updatedAt": "2025-12-15T06:33:38.391Z",
+    "__v": 0
+  }
+]

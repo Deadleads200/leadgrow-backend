@@ -1,0 +1,42 @@
+[
+  {
+    "_id": "692ffad9b57ca93413438e95",
+    "question": "How does GrowLead generate leads?",
+    "answer": "GrowLead uses AI-based filtering, targeting, and data extraction to instantly provide accurate, verified leads based on your selected category and location.",
+    "createdAt": "2025-12-03T08:54:49.934Z",
+    "updatedAt": "2025-12-03T08:54:49.934Z",
+    "__v": 0
+  },
+  {
+    "_id": "692ffb1fb57ca93413438eae",
+    "question": "Are the leads real and updated?",
+    "answer": "Yes, all leads are generated using real-time AI data sources, ensuring fresh, relevant, and high-quality results every time.",
+    "createdAt": "2025-12-03T08:55:59.037Z",
+    "updatedAt": "2025-12-03T08:55:59.037Z",
+    "__v": 0
+  },
+  {
+    "_id": "692ffb38b57ca93413438eb1",
+    "question": "Can I choose specific countries or states?",
+    "answer": "Absolutely! You can select your target country, state, or region to receive location-specific leads instantly",
+    "createdAt": "2025-12-03T08:56:24.554Z",
+    "updatedAt": "2025-12-03T08:56:24.554Z",
+    "__v": 0
+  },
+  {
+    "_id": "692ffb91b57ca93413438eb7",
+    "question": "How fast can I download my leads?",
+    "answer": "Leads are generated instantly. You can download them in your preferred format — CSV, Excel, or PDF — within seconds.",
+    "createdAt": "2025-12-03T08:57:53.290Z",
+    "updatedAt": "2025-12-03T08:57:53.290Z",
+    "__v": 0
+  },
+  {
+    "_id": "69526f8bfbeabff16e22ea89",
+    "question": "Do I need a paid plan to start?",
+    "answer": "Yes, a paid plan is required to start. Upgrade anytime to access higher limits and advanced features.",
+    "createdAt": "2025-12-29T12:09:47.417Z",
+    "updatedAt": "2025-12-29T12:09:47.417Z",
+    "__v": 0
+  }
+]

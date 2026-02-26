@@ -1,0 +1,13 @@
+[
+  {
+    "_id": "69539fb313d93f995b86e619",
+    "name": "stripe",
+    "secretKey": "stripe_secret_key",
+    "webhookUrl": "stripe_webhook_url",
+    "fixedCharge": 1,
+    "iconName": "CreditCard",
+    "createdAt": "2025-12-26T05:09:36.908Z",
+    "updatedAt": "2026-01-06T11:50:42.289Z",
+    "__v": 0
+  }
+]

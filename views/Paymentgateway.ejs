@@ -1,0 +1,101 @@
+<%- include('includes/header', { username: admin[0].name, email: admin[0].email }) %>
+
+    <div class="body-wrapper">
+        <div class="container-fluid">
+
+            <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+                <div class="card-body px-4 py-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 col-sm-7">
+                            <h4 class="fw-semibold mb-1">Payment Gateway</h4>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div class="datatables">
+                <div class="card">
+                    <div class="card-body">
+                        <div class="table-responsive">
+                            <table id="zero_config" class="table table-bordered table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Name</th>
+                                        <th>Fixed Charge</th>
+                                        <th class="action-col">Action</th>
+                                    </tr>
+                                </thead>
+                                <tbody></tbody>
+                            </table>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- MODAL -->
+    <div class="modal fade" id="gatewayModal">
+        <div class="modal-dialog modal-md">
+            <div class="modal-content">
+                <form id="gatewayForm">
+
+                    <div class="modal-header">
+                        <h5 class="modal-title">Payment Gateway</h5>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal"></button>
+                    </div>
+
+                    <div class="modal-body">
+                        <input type="hidden" id="gatewayId">
+
+                        <div class="mb-3">
+                            <label>Name</label>
+                            <input type="text" id="name" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Secret Key<span class="text-danger">*</span></label>
+                            <input type="text" id="secretKey" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Webhook URL<span class="text-danger">*</span></label>
+                            <input type="text" id="webhookUrl" class="form-control" required>
+                        </div>
+
+                        <div class="mb-3">
+                            <label>Fixed Charge<span class="text-danger">*</span></label>
+                            <input type="number" id="fixedCharge" class="form-control" value="0">
+                        </div>
+                        <div class="mb-3">
+                            <label>Icon Name (Lucide)<span class="text-danger">*</span></label>
+                            <input type="text" id="iconName" class="form-control"
+                                placeholder="e.g. CreditCard, Wallet, Banknote" required>
+                       <small class="text-muted d-block mt-1">
+  <strong>Note:</strong> Please copy the <strong>Component Name</strong> of the icon  
+  from 
+  <a href="https://lucide.dev/icons" target="_blank">
+    https://lucide.dev/icons
+  </a>
+</small>
+
+<div class="mt-2">
+</div>
+
+                        </div>
+
+                    </div>
+
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-light" data-bs-dismiss="modal">Cancel</button>
+                        <button class="btn btn-primary">Save</button>
+                    </div>
+
+                </form>
+            </div>
+        </div>
+    </div>
+
+    <%- include('includes/allscripts') %>
+        <script src="/js/view.js/paymentgateway.js"></script>

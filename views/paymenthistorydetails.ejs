@@ -1,0 +1,122 @@
+<%- include('includes/header',  {username: admin[0].name,email: admin[0].email } ) %>
+    <link rel="stylesheet" href="/css/paymentdetails.css">
+    <div class="body-wrapper">
+        <div class="container-fluid">
+            <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+                <div class="card-body px-4 py-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 col-sm-7">
+                            <h4 class="fw-semibold mb-1">Payment Details</h4>
+
+                        </div>
+                        <div class="col-md-4 col-sm-5 text-md-end text-sm-start mt-3 mt-md-0">
+                            <a href="javascript:void(0)" onclick="goBack()" class="btn btn-primary mb-3">
+                                <i class="fas fa-arrow-left"></i> Back
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="row d-flex justify-content-center">
+
+                <!-- Left Column: Payment Details -->
+             <div class="col-lg-5 mb-4 mb-lg-0">
+    <div class="card">
+        <div class="card-body p-4">
+            <h5 class="card-title mb-4">Payment Via <%= payment.gateway || "-" %></h5>
+
+            <ul class="list-group list-group-flush payment-details-list">
+
+                <!-- Date -->
+                <li class="list-group-item">
+                    <span class="item-label">Date</span>
+                    <span class="item-value">
+                        <%= payment.initiatedAt ? moment(payment.initiatedAt).format("DD MMM YYYY, hh:mm A") : "-" %>
+                    </span>
+                </li>
+
+                <!-- Transaction -->
+                <li class="list-group-item">
+                    <span class="item-label">Transaction Number</span>
+                    <span class="item-value">
+                        <%= payment.transactionId 
+                            ? (payment.transactionId.length > 12 
+                                ? payment.transactionId.substring(0, 12) + "…" 
+                                : payment.transactionId) 
+                            : "-" %>
+                    </span>
+                </li>
+
+                <!-- Username -->
+                <li class="list-group-item">
+                    <span class="item-label">Username</span>
+                    <a href="#" class="item-value text-decoration-none">
+                        <%= user && user.firstName ? user.firstName : "Unknown" %>
+                    </a>
+                </li>
+
+                <!-- Method -->
+                <li class="list-group-item">
+                    <span class="item-label">Method</span>
+                    <span class="item-value"><%= payment.gateway || "-" %></span>
+                </li>
+
+                <!-- Amount -->
+                <li class="list-group-item">
+                    <span class="item-label">Amount</span>
+                    <span class="item-value">
+                     <%= currencySymbol %> <%= payment.amount != null ? payment.amount : "-" %> <%= payment.conversion.fromCurrency %>
+                    </span>
+                </li>
+
+                
+                <!-- Rate -->
+            
+
+                <!-- After Rate Conversion -->
+                <li class="list-group-item">
+                     <span class="item-label">Conversion</span>
+                        <span class="item-value">
+                            <% if(payment.conversion) { %>
+                            <%= currencySymbol %> <%= payment.conversion.fromAmount %> <%= payment.conversion.fromCurrency %> + <%= payment.conversion.totalCharge %> <%= payment.conversion.fromCurrency %>  →  <%= currencySymbol %> <%= payment.conversion.totalAmount %> <%= payment.conversion.toCurrency %> 
+                            <% } else { %>
+                                -
+                            <% } %>
+                        </span>
+                </li>
+
+                <!-- Status -->
+                <li class="list-group-item">
+                    <div class="item-label">Status</div>
+                    <div class="text-end">
+                        <% 
+                            const st = payment.status ? payment.status.toLowerCase() : "";
+                            let badgeClass = "bg-secondary", badgeText = payment.status || "-";
+                            if(st === "success") { badgeClass="bg-success"; badgeText="Success"; }
+                            else if(st === "open") { badgeClass="bg-secondary"; badgeText="open"; }
+                            else if(st === "failed") { badgeClass="bg-danger"; badgeText="Failed"; }
+                        %>
+                        <span class="badge <%= badgeClass %>"><%= badgeText %></span>
+                        <div class="text-muted small mt-1">
+                            <%= payment.initiatedAt ? moment(payment.initiatedAt).fromNow() : "-" %>
+                        </div>
+                    </div>
+                </li>
+
+            </ul>
+        </div>
+    </div>
+</div>
+
+            </div>
+
+
+
+        </div>
+    </div>
+    </div>
+
+    <%- include('includes/allscripts') %>
+    <script src="/js/view.js/pageback.js"></script>

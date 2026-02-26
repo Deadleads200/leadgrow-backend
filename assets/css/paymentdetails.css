@@ -1,0 +1,77 @@
+ .card {
+            border: none;
+            border-radius: 0.5rem;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+        }
+
+        /* Styles for the left card ("Payment Via Bank Transfer") */
+        .payment-details-list .list-group-item {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 1rem 0;
+            border-bottom: 1px solid #eee;
+        }
+
+        .payment-details-list .list-group-item:last-child {
+            border-bottom: none;
+        }
+
+        .payment-details-list .item-label {
+            color: #6c757d; /* Muted text color for labels */
+        }
+
+        .payment-details-list .item-value {
+            font-weight: 500;
+            color: #212529; /* Standard dark text for values */
+        }
+
+        .status-rejected {
+            background-color: #fee2e2;
+            color: #ef4444;
+            border: 1px solid #fecaca;
+            font-weight: 500;
+            padding: 0.25rem 0.75rem;
+            border-radius: 9999px; /* Pill shape */
+            font-size: 0.8rem;
+        }
+        
+        .admin-response .item-label {
+            width: 100%;
+            margin-bottom: 0.25rem;
+        }
+        .admin-response .item-value {
+            color: #6c757d;
+            font-weight: 400;
+        }
+
+        /* Styles for the right card ("User Payment Information") */
+        .user-info-card {
+            background-color: #f8f9fa; /* Slightly off-white background */
+        }
+
+        .info-block {
+            margin-bottom: 1.75rem;
+        }
+
+        .info-block .info-label {
+            color: #6c757d;
+            font-size: 0.9rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .info-block .info-value {
+            color: #212529;
+            font-weight: 500;
+            font-size: 1rem;
+        }
+
+        .attachment-link {
+            color: #0d6efd;
+            text-decoration: none;
+            font-weight: 500;
+        }
+
+        .attachment-link:hover {
+            text-decoration: underline;
+        }

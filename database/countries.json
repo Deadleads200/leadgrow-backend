@@ -1,0 +1,2018 @@
+[
+  {
+    "_id": "6954e19816d45d9e2da9e1b0",
+    "name": "Afghanistan",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:56.584Z",
+    "updatedAt": "2025-12-31T08:40:56.584Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e1d6",
+    "name": "Albania",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.123Z",
+    "updatedAt": "2025-12-31T08:40:57.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e1e5",
+    "name": "Algeria",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.235Z",
+    "updatedAt": "2025-12-31T08:40:57.235Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e218",
+    "name": "American Samoa",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.386Z",
+    "updatedAt": "2025-12-31T08:40:57.386Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e21c",
+    "name": "Andorra",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.504Z",
+    "updatedAt": "2025-12-31T08:40:57.504Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e226",
+    "name": "Angola",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.617Z",
+    "updatedAt": "2025-12-31T08:40:57.617Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e23b",
+    "name": "Anguilla",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.749Z",
+    "updatedAt": "2025-12-31T08:40:57.749Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e23f",
+    "name": "Antarctica",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.864Z",
+    "updatedAt": "2025-12-31T08:40:57.864Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19916d45d9e2da9e243",
+    "name": "Antigua and Barbuda",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:57.974Z",
+    "updatedAt": "2025-12-31T08:40:57.974Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e24e",
+    "name": "Argentina",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.094Z",
+    "updatedAt": "2025-12-31T08:40:58.094Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e269",
+    "name": "Armenia",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.205Z",
+    "updatedAt": "2025-12-31T08:40:58.205Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e277",
+    "name": "Aruba",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.339Z",
+    "updatedAt": "2025-12-31T08:40:58.339Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e27b",
+    "name": "Australia",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.446Z",
+    "updatedAt": "2025-12-31T08:40:58.446Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e286",
+    "name": "Austria",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.571Z",
+    "updatedAt": "2025-12-31T08:40:58.571Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e292",
+    "name": "Azerbaijan",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.691Z",
+    "updatedAt": "2025-12-31T08:40:58.691Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e2e0",
+    "name": "Åland Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.853Z",
+    "updatedAt": "2025-12-31T08:40:58.853Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19a16d45d9e2da9e2e4",
+    "name": "Bahamas",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:58.985Z",
+    "updatedAt": "2025-12-31T08:40:58.985Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19b16d45d9e2da9e311",
+    "name": "Bahrain",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:59.133Z",
+    "updatedAt": "2025-12-31T08:40:59.133Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19b16d45d9e2da9e319",
+    "name": "Bangladesh",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:59.249Z",
+    "updatedAt": "2025-12-31T08:40:59.249Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19b16d45d9e2da9e362",
+    "name": "Barbados",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:59.413Z",
+    "updatedAt": "2025-12-31T08:40:59.413Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19b16d45d9e2da9e370",
+    "name": "Belarus",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:59.524Z",
+    "updatedAt": "2025-12-31T08:40:59.524Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19b16d45d9e2da9e37a",
+    "name": "Belgium",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:59.657Z",
+    "updatedAt": "2025-12-31T08:40:59.657Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19b16d45d9e2da9e38a",
+    "name": "Belize",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:59.783Z",
+    "updatedAt": "2025-12-31T08:40:59.783Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19b16d45d9e2da9e393",
+    "name": "Benin",
+    "status": true,
+    "createdAt": "2025-12-31T08:40:59.922Z",
+    "updatedAt": "2025-12-31T08:40:59.922Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e3a2",
+    "name": "Bermuda",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.049Z",
+    "updatedAt": "2025-12-31T08:41:00.049Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e3b0",
+    "name": "Bhutan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.184Z",
+    "updatedAt": "2025-12-31T08:41:00.184Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e3c6",
+    "name": "Bolivia (Plurinational State of)",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.317Z",
+    "updatedAt": "2025-12-31T08:41:00.317Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e3d2",
+    "name": "Bosnia and Herzegovina",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.446Z",
+    "updatedAt": "2025-12-31T08:41:00.446Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e3e2",
+    "name": "Botswana",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.573Z",
+    "updatedAt": "2025-12-31T08:41:00.573Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e3ef",
+    "name": "Bouvet Island",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.705Z",
+    "updatedAt": "2025-12-31T08:41:00.705Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e3f3",
+    "name": "Brazil",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.840Z",
+    "updatedAt": "2025-12-31T08:41:00.840Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19c16d45d9e2da9e411",
+    "name": "British Indian Ocean Territory",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:00.968Z",
+    "updatedAt": "2025-12-31T08:41:00.968Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19d16d45d9e2da9e415",
+    "name": "Brunei Darussalam",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:01.076Z",
+    "updatedAt": "2025-12-31T08:41:01.076Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19d16d45d9e2da9e41c",
+    "name": "Bulgaria",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:01.210Z",
+    "updatedAt": "2025-12-31T08:41:01.210Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19d16d45d9e2da9e43b",
+    "name": "Burkina Faso",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:01.354Z",
+    "updatedAt": "2025-12-31T08:41:01.354Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19d16d45d9e2da9e477",
+    "name": "Burundi",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:01.505Z",
+    "updatedAt": "2025-12-31T08:41:01.505Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19d16d45d9e2da9e48c",
+    "name": "Cabo Verde",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:01.634Z",
+    "updatedAt": "2025-12-31T08:41:01.634Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19d16d45d9e2da9e4a6",
+    "name": "Cambodia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:01.774Z",
+    "updatedAt": "2025-12-31T08:41:01.774Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19d16d45d9e2da9e4c1",
+    "name": "Cameroon",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:01.934Z",
+    "updatedAt": "2025-12-31T08:41:01.934Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e4ce",
+    "name": "Canada",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.051Z",
+    "updatedAt": "2025-12-31T08:41:02.051Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e4de",
+    "name": "Caribbean Netherlands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.170Z",
+    "updatedAt": "2025-12-31T08:41:02.170Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e4e2",
+    "name": "Cayman Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.290Z",
+    "updatedAt": "2025-12-31T08:41:02.290Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e4e6",
+    "name": "Central African Republic",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.403Z",
+    "updatedAt": "2025-12-31T08:41:02.403Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e4fa",
+    "name": "Chad",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.524Z",
+    "updatedAt": "2025-12-31T08:41:02.524Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e514",
+    "name": "Chile",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.671Z",
+    "updatedAt": "2025-12-31T08:41:02.671Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e527",
+    "name": "China",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.786Z",
+    "updatedAt": "2025-12-31T08:41:02.786Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19e16d45d9e2da9e54c",
+    "name": "Christmas Island",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:02.933Z",
+    "updatedAt": "2025-12-31T08:41:02.933Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19f16d45d9e2da9e550",
+    "name": "Cocos (Keeling) Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:03.056Z",
+    "updatedAt": "2025-12-31T08:41:03.056Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19f16d45d9e2da9e554",
+    "name": "Colombia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:03.179Z",
+    "updatedAt": "2025-12-31T08:41:03.179Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19f16d45d9e2da9e577",
+    "name": "Comoros",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:03.313Z",
+    "updatedAt": "2025-12-31T08:41:03.313Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19f16d45d9e2da9e57d",
+    "name": "Congo",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:03.442Z",
+    "updatedAt": "2025-12-31T08:41:03.442Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19f16d45d9e2da9e58c",
+    "name": "Congo, Democratic Republic of the",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:03.551Z",
+    "updatedAt": "2025-12-31T08:41:03.551Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19f16d45d9e2da9e5ab",
+    "name": "Cook Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:03.691Z",
+    "updatedAt": "2025-12-31T08:41:03.691Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e19f16d45d9e2da9e5af",
+    "name": "Costa Rica",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:03.898Z",
+    "updatedAt": "2025-12-31T08:41:03.898Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a016d45d9e2da9e5b9",
+    "name": "Croatia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:04.016Z",
+    "updatedAt": "2025-12-31T08:41:04.016Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a016d45d9e2da9e5d0",
+    "name": "Cuba",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:04.228Z",
+    "updatedAt": "2025-12-31T08:41:04.228Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a016d45d9e2da9e5e3",
+    "name": "Curaçao",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:04.357Z",
+    "updatedAt": "2025-12-31T08:41:04.357Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a016d45d9e2da9e5e7",
+    "name": "Cyprus",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:04.463Z",
+    "updatedAt": "2025-12-31T08:41:04.463Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a016d45d9e2da9e5f0",
+    "name": "Czech Republic",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:04.599Z",
+    "updatedAt": "2025-12-31T08:41:04.599Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a016d45d9e2da9e65e",
+    "name": "Côte d'Ivoire",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:04.780Z",
+    "updatedAt": "2025-12-31T08:41:04.780Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a016d45d9e2da9e680",
+    "name": "Denmark",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:04.915Z",
+    "updatedAt": "2025-12-31T08:41:04.915Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a116d45d9e2da9e688",
+    "name": "Djibouti",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:05.046Z",
+    "updatedAt": "2025-12-31T08:41:05.046Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a116d45d9e2da9e691",
+    "name": "Dominica",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:05.169Z",
+    "updatedAt": "2025-12-31T08:41:05.169Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a116d45d9e2da9e69e",
+    "name": "Dominican Republic",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:05.333Z",
+    "updatedAt": "2025-12-31T08:41:05.333Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a116d45d9e2da9e6c0",
+    "name": "Ecuador",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:05.457Z",
+    "updatedAt": "2025-12-31T08:41:05.457Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a116d45d9e2da9e6da",
+    "name": "Egypt",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:05.625Z",
+    "updatedAt": "2025-12-31T08:41:05.625Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a116d45d9e2da9e6f7",
+    "name": "El Salvador",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:05.764Z",
+    "updatedAt": "2025-12-31T08:41:05.764Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a116d45d9e2da9e708",
+    "name": "Equatorial Guinea",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:05.885Z",
+    "updatedAt": "2025-12-31T08:41:05.885Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e714",
+    "name": "Eritrea",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.011Z",
+    "updatedAt": "2025-12-31T08:41:06.011Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e71d",
+    "name": "Estonia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.134Z",
+    "updatedAt": "2025-12-31T08:41:06.134Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e72f",
+    "name": "Eswatini (Swaziland)",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.266Z",
+    "updatedAt": "2025-12-31T08:41:06.266Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e736",
+    "name": "Ethiopia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.387Z",
+    "updatedAt": "2025-12-31T08:41:06.387Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e744",
+    "name": "Falkland Islands (Malvinas)",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.519Z",
+    "updatedAt": "2025-12-31T08:41:06.519Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e748",
+    "name": "Faroe Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.632Z",
+    "updatedAt": "2025-12-31T08:41:06.632Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e74c",
+    "name": "Fiji",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.755Z",
+    "updatedAt": "2025-12-31T08:41:06.755Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a216d45d9e2da9e762",
+    "name": "Finland",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:06.913Z",
+    "updatedAt": "2025-12-31T08:41:06.913Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e77a",
+    "name": "France",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.026Z",
+    "updatedAt": "2025-12-31T08:41:07.026Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e7a7",
+    "name": "French Guiana",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.200Z",
+    "updatedAt": "2025-12-31T08:41:07.200Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e7ab",
+    "name": "French Polynesia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.301Z",
+    "updatedAt": "2025-12-31T08:41:07.301Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e7af",
+    "name": "French Southern Territories",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.403Z",
+    "updatedAt": "2025-12-31T08:41:07.403Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e7b3",
+    "name": "Gabon",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.526Z",
+    "updatedAt": "2025-12-31T08:41:07.526Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e7bf",
+    "name": "Gambia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.650Z",
+    "updatedAt": "2025-12-31T08:41:07.650Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e7c8",
+    "name": "Georgia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.765Z",
+    "updatedAt": "2025-12-31T08:41:07.765Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a316d45d9e2da9e7d9",
+    "name": "Germany",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:07.894Z",
+    "updatedAt": "2025-12-31T08:41:07.894Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e7ec",
+    "name": "Ghana",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.052Z",
+    "updatedAt": "2025-12-31T08:41:08.052Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e7f9",
+    "name": "Gibraltar",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.161Z",
+    "updatedAt": "2025-12-31T08:41:08.161Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e7fd",
+    "name": "Greece",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.284Z",
+    "updatedAt": "2025-12-31T08:41:08.284Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e826",
+    "name": "Greenland",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.423Z",
+    "updatedAt": "2025-12-31T08:41:08.423Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e82a",
+    "name": "Grenada",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.559Z",
+    "updatedAt": "2025-12-31T08:41:08.559Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e834",
+    "name": "Guadeloupe",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.678Z",
+    "updatedAt": "2025-12-31T08:41:08.678Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e838",
+    "name": "Guam",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.809Z",
+    "updatedAt": "2025-12-31T08:41:08.809Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a416d45d9e2da9e83c",
+    "name": "Guatemala",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:08.932Z",
+    "updatedAt": "2025-12-31T08:41:08.932Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e854",
+    "name": "Guernsey",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.058Z",
+    "updatedAt": "2025-12-31T08:41:09.058Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e858",
+    "name": "Guinea",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.174Z",
+    "updatedAt": "2025-12-31T08:41:09.174Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e883",
+    "name": "Guinea-Bissau",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.347Z",
+    "updatedAt": "2025-12-31T08:41:09.347Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e891",
+    "name": "Guyana",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.472Z",
+    "updatedAt": "2025-12-31T08:41:09.472Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e89e",
+    "name": "Haiti",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.590Z",
+    "updatedAt": "2025-12-31T08:41:09.590Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e8ab",
+    "name": "Heard Island and Mcdonald Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.709Z",
+    "updatedAt": "2025-12-31T08:41:09.709Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e8af",
+    "name": "Honduras",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.824Z",
+    "updatedAt": "2025-12-31T08:41:09.824Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a516d45d9e2da9e8c4",
+    "name": "Hong Kong",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:09.959Z",
+    "updatedAt": "2025-12-31T08:41:09.959Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a616d45d9e2da9e8d8",
+    "name": "Hungary",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:10.085Z",
+    "updatedAt": "2025-12-31T08:41:10.085Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a616d45d9e2da9e905",
+    "name": "Iceland",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:10.247Z",
+    "updatedAt": "2025-12-31T08:41:10.247Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a616d45d9e2da9e910",
+    "name": "India",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:10.370Z",
+    "updatedAt": "2025-12-31T08:41:10.370Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a616d45d9e2da9e938",
+    "name": "Indonesia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:10.522Z",
+    "updatedAt": "2025-12-31T08:41:10.522Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a616d45d9e2da9e961",
+    "name": "Iran",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:10.648Z",
+    "updatedAt": "2025-12-31T08:41:10.648Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a616d45d9e2da9e982",
+    "name": "Iraq",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:10.782Z",
+    "updatedAt": "2025-12-31T08:41:10.782Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a616d45d9e2da9e997",
+    "name": "Ireland",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:10.906Z",
+    "updatedAt": "2025-12-31T08:41:10.906Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a716d45d9e2da9e9b7",
+    "name": "Isle of Man",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:11.031Z",
+    "updatedAt": "2025-12-31T08:41:11.031Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a716d45d9e2da9e9bb",
+    "name": "Israel",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:11.142Z",
+    "updatedAt": "2025-12-31T08:41:11.142Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a716d45d9e2da9e9c4",
+    "name": "Italy",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:11.278Z",
+    "updatedAt": "2025-12-31T08:41:11.278Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a716d45d9e2da9ea47",
+    "name": "Jamaica",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:11.457Z",
+    "updatedAt": "2025-12-31T08:41:11.457Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a716d45d9e2da9ea58",
+    "name": "Japan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:11.588Z",
+    "updatedAt": "2025-12-31T08:41:11.588Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a716d45d9e2da9ea89",
+    "name": "Jersey",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:11.749Z",
+    "updatedAt": "2025-12-31T08:41:11.749Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a716d45d9e2da9ea8d",
+    "name": "Jordan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:11.881Z",
+    "updatedAt": "2025-12-31T08:41:11.881Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9ea9c",
+    "name": "Kazakhstan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.002Z",
+    "updatedAt": "2025-12-31T08:41:12.002Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9eab0",
+    "name": "Kenya",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.123Z",
+    "updatedAt": "2025-12-31T08:41:12.123Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9eae9",
+    "name": "Kiribati",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.288Z",
+    "updatedAt": "2025-12-31T08:41:12.288Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9eaef",
+    "name": "Korea, North",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.417Z",
+    "updatedAt": "2025-12-31T08:41:12.417Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9eafd",
+    "name": "Korea, South",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.542Z",
+    "updatedAt": "2025-12-31T08:41:12.542Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9eb11",
+    "name": "Kosovo",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.656Z",
+    "updatedAt": "2025-12-31T08:41:12.656Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9eb1b",
+    "name": "Kuwait",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.794Z",
+    "updatedAt": "2025-12-31T08:41:12.794Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a816d45d9e2da9eb24",
+    "name": "Kyrgyzstan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:12.935Z",
+    "updatedAt": "2025-12-31T08:41:12.935Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a916d45d9e2da9eb30",
+    "name": "Lao People's Democratic Republic",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:13.083Z",
+    "updatedAt": "2025-12-31T08:41:13.083Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a916d45d9e2da9eb46",
+    "name": "Latvia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:13.205Z",
+    "updatedAt": "2025-12-31T08:41:13.205Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a916d45d9e2da9ebbf",
+    "name": "Lebanon",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:13.421Z",
+    "updatedAt": "2025-12-31T08:41:13.421Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a916d45d9e2da9ebca",
+    "name": "Lesotho",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:13.538Z",
+    "updatedAt": "2025-12-31T08:41:13.538Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a916d45d9e2da9ebd7",
+    "name": "Liberia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:13.655Z",
+    "updatedAt": "2025-12-31T08:41:13.655Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a916d45d9e2da9ebe9",
+    "name": "Libya",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:13.803Z",
+    "updatedAt": "2025-12-31T08:41:13.803Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1a916d45d9e2da9ec01",
+    "name": "Liechtenstein",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:13.936Z",
+    "updatedAt": "2025-12-31T08:41:13.936Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1aa16d45d9e2da9ec0f",
+    "name": "Lithuania",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:14.067Z",
+    "updatedAt": "2025-12-31T08:41:14.067Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1aa16d45d9e2da9ec57",
+    "name": "Luxembourg",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:14.226Z",
+    "updatedAt": "2025-12-31T08:41:14.226Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1aa16d45d9e2da9ec69",
+    "name": "Macao",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:14.348Z",
+    "updatedAt": "2025-12-31T08:41:14.348Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1aa16d45d9e2da9ec6d",
+    "name": "Macedonia North",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:14.465Z",
+    "updatedAt": "2025-12-31T08:41:14.465Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1aa16d45d9e2da9ecc4",
+    "name": "Madagascar",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:14.624Z",
+    "updatedAt": "2025-12-31T08:41:14.624Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1aa16d45d9e2da9eccd",
+    "name": "Malawi",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:14.754Z",
+    "updatedAt": "2025-12-31T08:41:14.754Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1aa16d45d9e2da9ecee",
+    "name": "Malaysia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:14.888Z",
+    "updatedAt": "2025-12-31T08:41:14.888Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9ed01",
+    "name": "Maldives",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.013Z",
+    "updatedAt": "2025-12-31T08:41:15.013Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9ed1e",
+    "name": "Mali",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.160Z",
+    "updatedAt": "2025-12-31T08:41:15.160Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9ed2c",
+    "name": "Malta",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.267Z",
+    "updatedAt": "2025-12-31T08:41:15.267Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9ed72",
+    "name": "Marshall Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.440Z",
+    "updatedAt": "2025-12-31T08:41:15.440Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9ed77",
+    "name": "Martinique",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.554Z",
+    "updatedAt": "2025-12-31T08:41:15.554Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9ed7b",
+    "name": "Mauritania",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.683Z",
+    "updatedAt": "2025-12-31T08:41:15.683Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9ed8d",
+    "name": "Mauritius",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.853Z",
+    "updatedAt": "2025-12-31T08:41:15.853Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ab16d45d9e2da9eda1",
+    "name": "Mayotte",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:15.972Z",
+    "updatedAt": "2025-12-31T08:41:15.972Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9eda5",
+    "name": "Mexico",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.083Z",
+    "updatedAt": "2025-12-31T08:41:16.083Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9edc8",
+    "name": "Micronesia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.243Z",
+    "updatedAt": "2025-12-31T08:41:16.243Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9edcf",
+    "name": "Moldova",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.366Z",
+    "updatedAt": "2025-12-31T08:41:16.366Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9edf6",
+    "name": "Monaco",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.494Z",
+    "updatedAt": "2025-12-31T08:41:16.494Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9edfa",
+    "name": "Mongolia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.603Z",
+    "updatedAt": "2025-12-31T08:41:16.603Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9ee12",
+    "name": "Montenegro",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.730Z",
+    "updatedAt": "2025-12-31T08:41:16.730Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9ee2b",
+    "name": "Montserrat",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.855Z",
+    "updatedAt": "2025-12-31T08:41:16.855Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ac16d45d9e2da9ee2f",
+    "name": "Morocco",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:16.990Z",
+    "updatedAt": "2025-12-31T08:41:16.990Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ad16d45d9e2da9ee70",
+    "name": "Mozambique",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:17.149Z",
+    "updatedAt": "2025-12-31T08:41:17.149Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ad16d45d9e2da9ee7e",
+    "name": "Myanmar (Burma)",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:17.275Z",
+    "updatedAt": "2025-12-31T08:41:17.275Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ad16d45d9e2da9ee90",
+    "name": "Namibia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:17.401Z",
+    "updatedAt": "2025-12-31T08:41:17.401Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ad16d45d9e2da9eea1",
+    "name": "Nauru",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:17.524Z",
+    "updatedAt": "2025-12-31T08:41:17.524Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ad16d45d9e2da9eeb2",
+    "name": "Nepal",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:17.656Z",
+    "updatedAt": "2025-12-31T08:41:17.656Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ad16d45d9e2da9eec8",
+    "name": "Netherlands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:17.805Z",
+    "updatedAt": "2025-12-31T08:41:17.805Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ad16d45d9e2da9eeda",
+    "name": "Netherlands Antilles",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:17.936Z",
+    "updatedAt": "2025-12-31T08:41:17.936Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9eede",
+    "name": "New Caledonia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.061Z",
+    "updatedAt": "2025-12-31T08:41:18.061Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9eee2",
+    "name": "New Zealand",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.189Z",
+    "updatedAt": "2025-12-31T08:41:18.189Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9eef6",
+    "name": "Nicaragua",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.333Z",
+    "updatedAt": "2025-12-31T08:41:18.333Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9ef09",
+    "name": "Niger",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.472Z",
+    "updatedAt": "2025-12-31T08:41:18.472Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9ef13",
+    "name": "Nigeria",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.593Z",
+    "updatedAt": "2025-12-31T08:41:18.593Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9ef3a",
+    "name": "Niue",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.725Z",
+    "updatedAt": "2025-12-31T08:41:18.725Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9ef3e",
+    "name": "Norfolk Island",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.862Z",
+    "updatedAt": "2025-12-31T08:41:18.862Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ae16d45d9e2da9ef42",
+    "name": "Northern Mariana Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:18.984Z",
+    "updatedAt": "2025-12-31T08:41:18.984Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9ef46",
+    "name": "Norway",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.115Z",
+    "updatedAt": "2025-12-31T08:41:19.115Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9ef5e",
+    "name": "Oman",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.264Z",
+    "updatedAt": "2025-12-31T08:41:19.264Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9ef6e",
+    "name": "Pakistan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.400Z",
+    "updatedAt": "2025-12-31T08:41:19.400Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9ef79",
+    "name": "Palau",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.513Z",
+    "updatedAt": "2025-12-31T08:41:19.513Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9ef8c",
+    "name": "Palestine",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.622Z",
+    "updatedAt": "2025-12-31T08:41:19.622Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9ef90",
+    "name": "Panama",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.721Z",
+    "updatedAt": "2025-12-31T08:41:19.721Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9efa0",
+    "name": "Papua New Guinea",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.839Z",
+    "updatedAt": "2025-12-31T08:41:19.839Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1af16d45d9e2da9efb8",
+    "name": "Paraguay",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:19.958Z",
+    "updatedAt": "2025-12-31T08:41:19.958Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b016d45d9e2da9efcc",
+    "name": "Peru",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:20.084Z",
+    "updatedAt": "2025-12-31T08:41:20.084Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b016d45d9e2da9efe7",
+    "name": "Philippines",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:20.222Z",
+    "updatedAt": "2025-12-31T08:41:20.222Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b016d45d9e2da9f04b",
+    "name": "Pitcairn Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:20.381Z",
+    "updatedAt": "2025-12-31T08:41:20.381Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b016d45d9e2da9f04f",
+    "name": "Poland",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:20.500Z",
+    "updatedAt": "2025-12-31T08:41:20.500Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b016d45d9e2da9f063",
+    "name": "Portugal",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:20.625Z",
+    "updatedAt": "2025-12-31T08:41:20.625Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b016d45d9e2da9f07a",
+    "name": "Puerto Rico",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:20.770Z",
+    "updatedAt": "2025-12-31T08:41:20.770Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b016d45d9e2da9f07e",
+    "name": "Qatar",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:20.875Z",
+    "updatedAt": "2025-12-31T08:41:20.875Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b116d45d9e2da9f089",
+    "name": "Reunion",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:21.002Z",
+    "updatedAt": "2025-12-31T08:41:21.002Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b116d45d9e2da9f08d",
+    "name": "Romania",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:21.114Z",
+    "updatedAt": "2025-12-31T08:41:21.114Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b116d45d9e2da9f0b9",
+    "name": "Russian Federation",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:21.242Z",
+    "updatedAt": "2025-12-31T08:41:21.242Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b116d45d9e2da9f10f",
+    "name": "Rwanda",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:21.512Z",
+    "updatedAt": "2025-12-31T08:41:21.512Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b116d45d9e2da9f117",
+    "name": "Saint Barthelemy",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:21.634Z",
+    "updatedAt": "2025-12-31T08:41:21.634Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b116d45d9e2da9f11b",
+    "name": "Saint Helena",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:21.778Z",
+    "updatedAt": "2025-12-31T08:41:21.778Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b116d45d9e2da9f11f",
+    "name": "Saint Kitts and Nevis",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:21.893Z",
+    "updatedAt": "2025-12-31T08:41:21.893Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f131",
+    "name": "Saint Lucia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.026Z",
+    "updatedAt": "2025-12-31T08:41:22.026Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f140",
+    "name": "Saint Martin",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.175Z",
+    "updatedAt": "2025-12-31T08:41:22.175Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f144",
+    "name": "Saint Pierre and Miquelon",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.283Z",
+    "updatedAt": "2025-12-31T08:41:22.283Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f148",
+    "name": "Saint Vincent and the Grenadines",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.415Z",
+    "updatedAt": "2025-12-31T08:41:22.415Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f151",
+    "name": "Samoa",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.533Z",
+    "updatedAt": "2025-12-31T08:41:22.533Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f15f",
+    "name": "San Marino",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.663Z",
+    "updatedAt": "2025-12-31T08:41:22.663Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f16b",
+    "name": "Sao Tome and Principe",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.793Z",
+    "updatedAt": "2025-12-31T08:41:22.793Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b216d45d9e2da9f170",
+    "name": "Saudi Arabia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:22.910Z",
+    "updatedAt": "2025-12-31T08:41:22.910Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f180",
+    "name": "Senegal",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.036Z",
+    "updatedAt": "2025-12-31T08:41:23.036Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f191",
+    "name": "Serbia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.161Z",
+    "updatedAt": "2025-12-31T08:41:23.161Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f1ae",
+    "name": "Serbia and Montenegro",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.300Z",
+    "updatedAt": "2025-12-31T08:41:23.300Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f1b2",
+    "name": "Seychelles",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.474Z",
+    "updatedAt": "2025-12-31T08:41:23.474Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f1cd",
+    "name": "Sierra Leone",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.587Z",
+    "updatedAt": "2025-12-31T08:41:23.587Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f1d4",
+    "name": "Singapore",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.704Z",
+    "updatedAt": "2025-12-31T08:41:23.704Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f1dc",
+    "name": "Sint Maarten",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.818Z",
+    "updatedAt": "2025-12-31T08:41:23.818Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b316d45d9e2da9f1e0",
+    "name": "Slovakia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:23.940Z",
+    "updatedAt": "2025-12-31T08:41:23.940Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b416d45d9e2da9f1eb",
+    "name": "Slovenia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:24.061Z",
+    "updatedAt": "2025-12-31T08:41:24.061Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b416d45d9e2da9f2c1",
+    "name": "Solomon Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:24.315Z",
+    "updatedAt": "2025-12-31T08:41:24.315Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b416d45d9e2da9f2ce",
+    "name": "Somalia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:24.447Z",
+    "updatedAt": "2025-12-31T08:41:24.447Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b416d45d9e2da9f2e1",
+    "name": "South Africa",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:24.584Z",
+    "updatedAt": "2025-12-31T08:41:24.584Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b416d45d9e2da9f2ed",
+    "name": "South Georgia and the South Sandwich Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:24.700Z",
+    "updatedAt": "2025-12-31T08:41:24.700Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b416d45d9e2da9f2f1",
+    "name": "South Sudan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:24.814Z",
+    "updatedAt": "2025-12-31T08:41:24.814Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b416d45d9e2da9f2fe",
+    "name": "Spain",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:24.936Z",
+    "updatedAt": "2025-12-31T08:41:24.936Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b516d45d9e2da9f341",
+    "name": "Sri Lanka",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:25.094Z",
+    "updatedAt": "2025-12-31T08:41:25.094Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b516d45d9e2da9f365",
+    "name": "Sudan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:25.248Z",
+    "updatedAt": "2025-12-31T08:41:25.248Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b516d45d9e2da9f37a",
+    "name": "Suriname",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:25.376Z",
+    "updatedAt": "2025-12-31T08:41:25.376Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b516d45d9e2da9f387",
+    "name": "Svalbard and Jan Mayen",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:25.543Z",
+    "updatedAt": "2025-12-31T08:41:25.543Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b516d45d9e2da9f38b",
+    "name": "Sweden",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:25.674Z",
+    "updatedAt": "2025-12-31T08:41:25.674Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b516d45d9e2da9f3a2",
+    "name": "Switzerland",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:25.797Z",
+    "updatedAt": "2025-12-31T08:41:25.797Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b516d45d9e2da9f3be",
+    "name": "Syria",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:25.927Z",
+    "updatedAt": "2025-12-31T08:41:25.927Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f3cf",
+    "name": "Taiwan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.050Z",
+    "updatedAt": "2025-12-31T08:41:26.050Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f3e9",
+    "name": "Tajikistan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.169Z",
+    "updatedAt": "2025-12-31T08:41:26.169Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f3f0",
+    "name": "Tanzania",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.290Z",
+    "updatedAt": "2025-12-31T08:41:26.290Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f410",
+    "name": "Thailand",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.420Z",
+    "updatedAt": "2025-12-31T08:41:26.420Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f460",
+    "name": "Timor-Leste",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.563Z",
+    "updatedAt": "2025-12-31T08:41:26.563Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f46f",
+    "name": "Togo",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.693Z",
+    "updatedAt": "2025-12-31T08:41:26.693Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f477",
+    "name": "Tokelau",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.811Z",
+    "updatedAt": "2025-12-31T08:41:26.811Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b616d45d9e2da9f47b",
+    "name": "Tonga",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:26.928Z",
+    "updatedAt": "2025-12-31T08:41:26.928Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f483",
+    "name": "Trinidad and Tobago",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.044Z",
+    "updatedAt": "2025-12-31T08:41:27.044Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f496",
+    "name": "Tunisia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.165Z",
+    "updatedAt": "2025-12-31T08:41:27.165Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f4b0",
+    "name": "Turkey (Türkiye)",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.300Z",
+    "updatedAt": "2025-12-31T08:41:27.300Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f504",
+    "name": "Turkmenistan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.480Z",
+    "updatedAt": "2025-12-31T08:41:27.480Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f50d",
+    "name": "Turks and Caicos Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.612Z",
+    "updatedAt": "2025-12-31T08:41:27.612Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f511",
+    "name": "Tuvalu",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.727Z",
+    "updatedAt": "2025-12-31T08:41:27.727Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f51c",
+    "name": "U.S. Outlying Islands",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.838Z",
+    "updatedAt": "2025-12-31T08:41:27.838Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b716d45d9e2da9f520",
+    "name": "Uganda",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:27.947Z",
+    "updatedAt": "2025-12-31T08:41:27.947Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b816d45d9e2da9f5a0",
+    "name": "Ukraine",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:28.146Z",
+    "updatedAt": "2025-12-31T08:41:28.146Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b816d45d9e2da9f5bc",
+    "name": "United Arab Emirates",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:28.281Z",
+    "updatedAt": "2025-12-31T08:41:28.281Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b816d45d9e2da9f5c6",
+    "name": "United Kingdom",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:28.385Z",
+    "updatedAt": "2025-12-31T08:41:28.385Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b816d45d9e2da9f6a1",
+    "name": "United States",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:28.640Z",
+    "updatedAt": "2025-12-31T08:41:28.640Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b816d45d9e2da9f6e6",
+    "name": "Uruguay",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:28.778Z",
+    "updatedAt": "2025-12-31T08:41:28.778Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b816d45d9e2da9f6fc",
+    "name": "Uzbekistan",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:28.916Z",
+    "updatedAt": "2025-12-31T08:41:28.916Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f70d",
+    "name": "Vanuatu",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.073Z",
+    "updatedAt": "2025-12-31T08:41:29.073Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f716",
+    "name": "Vatican City Holy See",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.185Z",
+    "updatedAt": "2025-12-31T08:41:29.185Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f71a",
+    "name": "Venezuela",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.312Z",
+    "updatedAt": "2025-12-31T08:41:29.312Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f736",
+    "name": "Vietnam",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.454Z",
+    "updatedAt": "2025-12-31T08:41:29.454Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f778",
+    "name": "Virgin Islands, British",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.610Z",
+    "updatedAt": "2025-12-31T08:41:29.610Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f77c",
+    "name": "Virgin Islands, U.S",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.713Z",
+    "updatedAt": "2025-12-31T08:41:29.713Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f780",
+    "name": "Wallis and Futuna",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.850Z",
+    "updatedAt": "2025-12-31T08:41:29.850Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1b916d45d9e2da9f784",
+    "name": "Western Sahara",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:29.952Z",
+    "updatedAt": "2025-12-31T08:41:29.952Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ba16d45d9e2da9f788",
+    "name": "Yemen",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:30.055Z",
+    "updatedAt": "2025-12-31T08:41:30.055Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ba16d45d9e2da9f7a0",
+    "name": "Zambia",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:30.196Z",
+    "updatedAt": "2025-12-31T08:41:30.196Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954e1ba16d45d9e2da9f7ad",
+    "name": "Zimbabwe",
+    "status": true,
+    "createdAt": "2025-12-31T08:41:30.328Z",
+    "updatedAt": "2026-01-06T11:49:56.492Z",
+    "__v": 0
+  }
+]

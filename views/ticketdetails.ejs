@@ -1,0 +1,137 @@
+<%- include('includes/header', {username: admin[0].name,email: admin[0].email } ) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+      <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+        <div class="card-body px-4 py-3">
+          <div class="row align-items-center">
+            <div class="col-md-8 col-sm-7">
+              <h4 class="fw-semibold mb-1">Tickets Details</h4>
+
+            </div>
+
+            <div class="col-md-4 col-sm-5 text-md-end text-sm-start mt-3 mt-md-0">
+              <a href="javascript:void(0)" onclick="goBack()" class="btn btn-primary mb-3">
+                <i class="fas fa-arrow-left"></i> Back
+              </a>
+            </div>
+
+          </div>
+        </div>
+
+        <div class="card shadow-sm">
+          <div class="card-body p-4">
+
+            <!-- Ticket Header -->
+            <div class="d-flex justify-content-between align-items-center pb-3 mb-3 border-bottom">
+              <div class="d-flex align-items-center">
+
+                <% if (ticket.status==="open" ) { %>
+                  <span class="badge rounded-pill bg-success-subtle text-success border border-success-subtle me-2 p-2">
+                    Open
+                  </span>
+                  <% } else if (ticket.status==="closed" ) { %>
+                    <span class="badge rounded-pill bg-danger-subtle text-danger border border-danger-subtle me-2 p-2">
+                      Closed
+                    </span>
+                    <% } else { %>
+                      <span
+                        class="badge rounded-pill bg-warning-subtle text-warning border border-warning-subtle me-2 p-2">
+                        Answered
+                      </span>
+                      <% } %>
+
+                        <h5 class="mb-0">[Ticket#<%= ticket._id %>] <%= ticket.subject %>
+                        </h5>
+              </div>
+<!-- Dropdown button instead of single button -->
+<div class="dropdown">
+  <button class="btn btn-danger dropdown-toggle" type="button" id="ticketStatusDropdown" data-bs-toggle="dropdown" aria-expanded="false">
+    Update Status
+  </button>
+  <ul class="dropdown-menu" aria-labelledby="ticketStatusDropdown">
+    <li><a class="dropdown-item update-status" href="#" data-status="open" data-id="<%= ticket._id %>">Open</a></li>
+    <li><a class="dropdown-item update-status" href="#" data-status="answered" data-id="<%= ticket._id %>">Answered</a></li>
+    <li><a class="dropdown-item update-status" href="#" data-status="closed" data-id="<%= ticket._id %>">Closed</a></li>
+  </ul>
+</div>
+
+
+            </div>
+
+            <!-- Reply Form -->
+            <form id="ticketReplyForm" action="/api/admin/ticketreply/<%= ticket._id %>" method="POST"
+              enctype="multipart/form-data">
+              <div class="mb-3">
+                <textarea name="message" class="form-control" rows="6" placeholder="Enter reply here"></textarea>
+              </div>
+
+              <div class="d-flex flex-wrap justify-content-between align-items-center mb-4">
+                <!-- Left Side: Attachment -->
+                <div>
+                  <label class="btn btn-dark">
+                    <i class="fas fa-plus me-2"></i>Add Attachment
+                    <input type="file" name="attachments" multiple hidden />
+                  </label>
+
+                  <p class="text-primary small mt-2 mb-0">
+                    Allowed: .jpg, .jpeg, .png, .pdf, .doc, .docx
+                  </p>
+                </div>
+
+                <!-- Reply Button -->
+                <button type="submit" class="btn btn-primary px-4 py-2 fw-bold">
+                  <i class="fas fa-reply me-2"></i>Reply
+                </button>
+              </div>
+            </form>
+
+            <hr>
+
+            <!-- Existing Messages Loop -->
+    <div id="ticketMessages">
+  <% ticket.messages.forEach(msg => { %>
+    <div class="card border-primary mb-3">
+      <div class="card-body d-flex justify-content-between">
+        <!-- Left side: Message content -->
+        <div class="me-3 flex-grow-1">
+          <h5 class="fw-bold">
+            <%= msg.sender?.name || "Unknown" %>
+          </h5>    
+          <p class="text-muted mb-2">Posted on <%= new Date(msg.createdAt).toLocaleString() %></p>
+          <p><%= msg.message %></p>
+
+          <% if (msg.attachments && msg.attachments.length > 0) { %>
+            <strong>Attachments:</strong><br>
+            <% msg.attachments.forEach(a => { %>
+              <a href="<%= a.url %>" target="_blank"
+                 class="badge bg-info text-dark mb-1 d-inline-block">View Attachment</a>
+            <% }) %>
+          <% } %>
+        </div>
+
+        <!-- Right side: Delete button -->
+        <div class="d-flex align-items-center border-start ps-3">
+          <a href="/ticket/message/delete/<%= ticket._id %>/<%= msg._id %>" 
+             class="btn btn-danger btn-sm">
+            <i class="fas fa-trash me-2"></i>Delete
+          </a>
+        </div>
+      </div>
+    </div>
+  <% }) %>
+</div>
+
+
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <%- include('includes/allscripts') %>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/view.js/ticketdetails.js"></script>
+    <script src="/js/view.js/pageback.js"></script>

@@ -1,0 +1,242 @@
+[
+  {
+    "_id": "6954ec0ca0817fb12150f64d",
+    "title": "E-commerce Stores",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f64e",
+    "title": "Education & Training Institutes",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f64f",
+    "title": "Beauty & Salon Services",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f650",
+    "title": "Health & Fitness Centers",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f651",
+    "title": "Event Planners & Wedding Services",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f652",
+    "title": "Software & IT Companies",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f653",
+    "title": "Digital Marketing Agencies",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f654",
+    "title": "Travel & Tourism Agencies",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f655",
+    "title": "Construction & Interior Design",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f656",
+    "title": "Financial Services & Accountants",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f657",
+    "title": "Home Repair & Maintenance Services",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f658",
+    "title": "Logistics & Courier Services",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f659",
+    "title": "Hospitality & Hotels",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f65a",
+    "title": "Retail Shops & Supermarkets",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f65b",
+    "title": "Legal & Law Firms",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f65c",
+    "title": "NGOs & Community Organizations",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f65d",
+    "title": "Automobile Dealers & Services",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f65e",
+    "title": "Freelancers & Consultants",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f65f",
+    "title": "Restaurants & Cafés",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f660",
+    "title": "Real Estate Agents & Agencies",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f661",
+    "title": "Manufacturing & Industrial Businesses",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f662",
+    "title": "Startups & SaaS Companies",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f663",
+    "title": "Import & Export Businesses",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f664",
+    "title": "Coaching & EdTech Platforms",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f665",
+    "title": "Healthcare Clinics & Hospitals",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f666",
+    "title": "Insurance & Investment Advisors",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f667",
+    "title": "Media & Advertising Agencies",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f668",
+    "title": "Architecture & Engineering Firms",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f669",
+    "title": "Security & Facility Management",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  },
+  {
+    "_id": "6954ec0ca0817fb12150f66a",
+    "title": "Cleaning & Pest Control Services",
+    "status": true,
+    "createdAt": "2025-11-17T09:35:24.928Z",
+    "updatedAt": "2025-11-24T06:00:35.889Z",
+    "__v": 0
+  }
+]

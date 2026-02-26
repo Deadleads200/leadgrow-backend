@@ -1,0 +1,278 @@
+<%- include('includes/header', {username: admin[0].name,email: admin[0].email } ) %>
+
+    <div class="body-wrapper">
+        <div class="container-fluid">
+            <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+                <div class="card-body px-4 py-3">
+                    <div class="row align-items-center">
+                        <div class="col-md-8 col-sm-7">
+                            <h4 class="fw-semibold mb-1">Add Plan</h4>
+
+                        </div>
+
+                        <div class="col-md-4 col-sm-5 text-md-end text-sm-start mt-3 mt-md-0">
+                            <a href="/pricingplan" class="btn btn-primary">
+                                <i class="ti ti-arrow-left me-1"></i> Back To Plan
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+
+            <!-- start Default Basic Forms -->
+            <div class="card">
+                <div class="card-body">
+
+<form id="pricingForm" class="form needs-validation" novalidate action="/pricingsave" method="POST">
+
+    <input type="hidden" name="id" id="planId" value="<%= plan ? plan._id : '' %>">
+
+    <!-- ============================= -->
+    <!-- 1. BASIC INFORMATION SECTION  -->
+    <!-- ============================= -->
+    <div class="card mb-4">
+        <div class="card-header bg-light">
+            <h5 class="mb-0">Plan Information</h5>
+        </div>
+        <div class="card-body">
+            
+            <!-- Plan Type -->
+            <div class="mb-3 row">
+                <label class="col-md-3 col-form-label fw-bold">Plan Type <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <select class="form-control" name="planType" required>
+                        <option value="">-- Select Plan Type --</option>
+                        <option value="basic" <%=plan && plan.planType==='basic' ? 'selected' : '' %>>Basic</option>
+                        <option value="standard" <%=plan && plan.planType==='standard' ? 'selected' : '' %>>Standard</option>
+                        <option value="Premium" <%=plan && plan.planType==='Premium' ? 'selected' : '' %>>Premium</option>
+                    </select>
+                    <div class="invalid-feedback">Plan Type is required</div>
+                </div>
+            </div>
+
+            <!-- Name -->
+            <div class="mb-3 row">
+                <label class="col-md-3 col-form-label fw-bold">Plan Name <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <input class="form-control" type="text" name="name" value="<%= plan ? plan.name : '' %>" placeholder="e.g. Starter Plan" required>
+                    <div class="invalid-feedback">Name is required</div>
+                </div>
+            </div>
+
+            <!-- Short Description -->
+            <div class="mb-3 row">
+                <label class="col-md-3 col-form-label fw-bold">Description <span class="text-danger">*</span></label>
+                <div class="col-md-9">
+                    <textarea class="form-control" rows="2" name="shortDescription" placeholder="Brief overview of the plan" required><%= plan ? plan.shortDescription : '' %></textarea>
+                    <div class="invalid-feedback">Description is required</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ============================= -->
+    <!-- 2. BILLING DETAILS (SIDE BY SIDE) -->
+    <!-- ============================= -->
+    <div class="card mb-4">
+        <div class="card-header bg-light">
+            <div class="row">
+                <div class="col-md-3"><h5 class="mb-0">Plan Features</h5></div>
+                <div class="col-md-4 text-center fw-bold text-primary">MONTHLY DETAILS</div>
+                <div class="col-md-4 text-center fw-bold text-primary">YEARLY DETAILS</div>
+            </div>
+        </div>
+        <div class="card-body">
+
+            <!-- ROW 1: LEAD LIMIT -->
+ <div class="row mb-4 align-items-center border-bottom pb-3">
+    <div class="col-md-3">
+        <label class="fw-bold">Lead Limit <span class="text-danger">*</span></label>
+        <div class="text-muted small">Max leads allowed per cycle.</div>
+    </div>
+    <!-- Monthly -->
+    <div class="col-md-4">
+        <label class="d-md-none text-primary fw-bold">Monthly:</label>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fa-regular fa-hand"></i></span>
+            <input type="number" class="form-control" id="monthlyLeadLimit" name="monthlyLeadLimit" value="<%= plan ? plan.monthlyLeadLimit : '' %>" placeholder="Monthly Limit" required min="10"/>
+            <div class="invalid-feedback">Min 10 required</div>
+        </div>
+    </div>
+    <!-- Yearly -->
+    <div class="col-md-4">
+        <label class="d-md-none text-success fw-bold">Yearly:</label>
+        <div class="input-group">
+            <span class="input-group-text"><i class="fa-regular fa-hand"></i></span>
+            <input type="number" class="form-control" id="yearlyLeadLimit" name="yearlyLeadLimit" value="<%= plan ? plan.yearlyLeadLimit : '' %>" placeholder="Yearly Limit" required min="10"/>
+            <div class="invalid-feedback">Min 10 required</div>
+        </div>
+    </div>
+</div>
+            <!-- ROW 2: PRICE -->
+            <div class="row mb-4 align-items-center border-bottom pb-3">
+                <div class="col-md-3">
+                    <label class="fw-bold">Price <span class="text-danger">*</span></label>
+                    <div class="text-muted small">Cost charged to user.</div>
+                </div>
+                <!-- Monthly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-primary fw-bold">Monthly:</label>
+                    <div class="input-group">
+                        <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" name="monthlyPrice" value="<%= plan ? plan.monthlyPrice : '' %>" placeholder="Monthly Price" required>
+                        <div class="invalid-feedback">Required</div>
+                    </div>
+                </div>
+                <!-- Yearly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-success fw-bold">Yearly:</label>
+                    <div class="input-group">
+                        <span class="input-group-text">$</span>
+                        <input type="number" class="form-control" name="yearlyPrice" value="<%= plan ? plan.yearlyPrice : '' %>" placeholder="Yearly Price" required>
+                        <div class="invalid-feedback">Required</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROW 3: EXPIRATION DAYS -->
+            <div class="row mb-4 align-items-center border-bottom pb-3">
+                <div class="col-md-3">
+                    <label class="fw-bold">Expirey Days Period <span class="text-danger">*</span></label>
+                    <div class="text-muted small">Days access is granted.</div>
+                </div>
+                <!-- Monthly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-primary fw-bold">Monthly:</label>
+                    <div >
+                        <input type="text" class="form-control" name="expiredDaysMonthly" value="<%= plan ? plan.expiredDaysMonthly : '' %>" placeholder=" Data accessible for days" required>
+                        <div class="invalid-feedback">Required</div>
+                    </div>
+                </div>
+                <!-- Yearly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-success fw-bold">Yearly:</label>
+                    <div >
+                        <input type="text" class="form-control" name="expiredDaysYearly" value="<%= plan ? plan.expiredDaysYearly : '' %>" placeholder="Data accessible for days" required>
+                        <div class="invalid-feedback">Required</div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- ROW 4: CREDITS -->
+           <div class="row mb-4 align-items-center border-bottom pb-3">
+    <div class="col-md-3">
+        <label class="fw-bold">AI Credits <span class="text-danger">*</span></label>
+        <div class="text-muted small">Credits for lead boosting.</div>
+    </div>
+<!-- Monthly -->
+<div class="col-md-4">
+  <label class="d-md-none text-primary fw-bold">Monthly:</label>
+  <div class="input-group">
+    <!-- Read-only number preview box -->
+    <span class="input-group-text" id="monthlyCreditPreview"><%= plan ? plan.monthlyLeadLimit : 0 %></span>
+    
+    <!-- Editable input -->
+    <input type="text" class="form-control" id="monthlyCredit" name="monthlyCredit"
+           value="<%= plan ? plan.monthlyCredit : '' %>"
+           placeholder="Monthly Credits" required>
+  </div>
+  <div class="invalid-feedback">Required</div>
+</div>
+
+<!-- Yearly -->
+<div class="col-md-4">
+  <label class="d-md-none text-success fw-bold">Yearly:</label>
+  <div class="input-group">
+    <!-- Read-only number preview box -->
+    <span class="input-group-text" id="yearlyCreditPreview"><%= plan ? plan.yearlyLeadLimit : 0 %></span>
+    
+    <!-- Editable input -->
+    <input type="text" class="form-control" id="yearlyCredit" name="yearlyCredit"
+           value="<%= plan ? plan.yearlyCredit : '' %>"
+           placeholder="Yearly Credits" required>
+  </div>
+  <div class="invalid-feedback">Required</div>
+</div>
+
+</div>
+            <!-- ROW 5: DESCRIPTION TEXT -->
+            <div class="row mb-4 align-items-center border-bottom pb-3">
+                <div class="col-md-3">
+                    <label class="fw-bold">Small Detail Text</label>
+                    <div class="text-muted small">Short note (e.g. "No daily limit").</div>
+                </div>
+                <!-- Monthly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-primary fw-bold">Monthly:</label>
+                    <input type="text" class="form-control" name="monthlyDescription" value="<%= plan ? plan.monthlyDescription : '' %>" placeholder="Monthly Note">
+                </div>
+                <!-- Yearly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-success fw-bold">Yearly:</label>
+                    <input type="text" class="form-control" name="yearlyDescription" value="<%= plan ? plan.yearlyDescription : '' %>" placeholder="Yearly Note">
+                </div>
+            </div>
+
+            <!-- ROW 6: FEATURES HIGHLIGHT -->
+            <div class="row mb-4 align-items-center">
+                <div class="col-md-3">
+                    <label class="fw-bold">Feature Highlight</label>
+                    <div class="text-muted small">One-line marketing text.</div>
+                </div>
+                <!-- Monthly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-primary fw-bold">Monthly:</label>
+                    <input type="text" class="form-control" name="monthlyFeatures" value="<%= plan ? plan.monthlyFeatures : '' %>" placeholder="Monthly Feature">
+                </div>
+                <!-- Yearly -->
+                <div class="col-md-4">
+                    <label class="d-md-none text-success fw-bold">Yearly:</label>
+                    <input type="text" class="form-control" name="yearlyFeatures" value="<%= plan ? plan.yearlyFeatures : '' %>" placeholder="Yearly Feature">
+                </div>
+            </div>
+
+                                           <div class="col-md-6 d-flex mt-5">
+                    <div class="form-check form-switch p-0 m-0 d-flex align-items-center gap-2">
+                        <input class="form-check-input ms-0" type="checkbox" name="isPremium" id="isPremiumSwitch" <%=plan && plan.isPremium ? 'checked' : '' %> style="width: 3em; height: 1.5em;">
+                        <label class="form-check-label fw-bold" for="isPremiumSwitch">Enable Populer Plan</label>
+                    </div>
+                </div>
+        </div>
+    </div>
+
+    <!-- ============================= -->
+    <!-- 3. SETTINGS & ACTIONS         -->
+    <!-- ============================= -->
+    <div class="card bg-light">
+        <div class="card-body">
+            <div class="row align-items-center">
+                <div class="col-md-6">
+  <button type="reset" class="btn btn-outline-secondary me-2 <%= plan ? 'd-none' : '' %>">
+                        Reset
+                    </button>        
+                    <button type="submit" class="btn btn-primary px-4">Save Plan</button>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+</form>
+
+
+
+                </div>
+            </div>
+            <!-- end Default Basic Forms -->
+        </div>
+    </div>
+    </div>
+
+
+    <%- include('includes/allscripts') %>
+        <script src="https://cdn.quilljs.com/1.3.6/quill.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+
+        <script src="/js/view.js/addpricingplan.js"></script>

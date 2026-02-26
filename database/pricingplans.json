@@ -1,0 +1,83 @@
+[
+  {
+    "_id": "692fd077b57ca93413438c8d",
+    "name": "Basic Plan",
+    "planType": "basic",
+    "shortDescription": "Essential tools to start generating quality leads quickly and easily",
+    "monthlyPrice": 115,
+    "yearlyPrice": 1150,
+    "monthlyLeadLimit": 100,
+    "yearlyLeadLimit": 2000,
+    "expiredDaysMonthly": "Data access valid for 1 month",
+    "expiredDaysYearly": "Data access valid for 1 year",
+    "monthlyCredit": "AI Power Credits for Lead Boosting",
+    "yearlyCredit": "AI Power Credits for Lead Boosting",
+    "monthlyDescription": "Standard processing speed",
+    "yearlyDescription": "Standard processing speed",
+    "monthlyFeatures": "Lead export (CSV / Excel / PDF)",
+    "yearlyFeatures": "Lead export (CSV / Excel / PDF)",
+    "status": true,
+    "isPremium": false,
+    "billingType": [
+      "monthly",
+      "yearly"
+    ],
+    "createdAt": "2025-12-03T05:53:59.279Z",
+    "updatedAt": "2026-01-06T05:16:55.453Z",
+    "__v": 0
+  },
+  {
+    "_id": "692fd835b57ca93413438ce0",
+    "name": "Premium Plan",
+    "planType": "Premium",
+    "shortDescription": "Advanced features for faster lead generation and improved data accuracy",
+    "monthlyPrice": 415,
+    "yearlyPrice": 4150,
+    "monthlyLeadLimit": 10000,
+    "yearlyLeadLimit": 20000,
+    "expiredDaysMonthly": "Data access valid for 1 month",
+    "expiredDaysYearly": "Data access valid for 1 year",
+    "monthlyCredit": "AI Power Credits for Lead Boosting",
+    "yearlyCredit": "AI Power Credits for Lead Boosting",
+    "monthlyDescription": "Standard processing speed",
+    "yearlyDescription": "Standard processing speed",
+    "monthlyFeatures": "Lead export (CSV / Excel / PDF)",
+    "yearlyFeatures": "Lead export (CSV / Excel / PDF)",
+    "status": true,
+    "isPremium": false,
+    "billingType": [
+      "monthly",
+      "yearly"
+    ],
+    "createdAt": "2025-12-03T06:27:01.509Z",
+    "updatedAt": "2026-01-04T06:16:55.514Z",
+    "__v": 0
+  },
+  {
+    "_id": "692fd95bb57ca93413438cfc",
+    "name": "Standard Plan",
+    "planType": "standard",
+    "shortDescription": "Full-scale lead solutions designed for high-volume needs and growth",
+    "monthlyPrice": 215,
+    "yearlyPrice": 2150,
+    "monthlyLeadLimit": 300,
+    "yearlyLeadLimit": 4000,
+    "expiredDaysMonthly": "Data access valid for 1 months",
+    "expiredDaysYearly": "Data access valid for 1 years",
+    "monthlyCredit": "AI Power Credits for Lead Boosting",
+    "yearlyCredit": "AI Power Credits for Lead Boosting",
+    "monthlyDescription": "Lead export (CSV / Excel / PDF)",
+    "yearlyDescription": "Lead export (CSV / Excel / PDF)",
+    "monthlyFeatures": "High-priority processing",
+    "yearlyFeatures": "High-priority processing",
+    "status": true,
+    "isPremium": true,
+    "billingType": [
+      "monthly",
+      "yearly"
+    ],
+    "createdAt": "2025-12-03T06:31:55.088Z",
+    "updatedAt": "2026-01-04T04:20:58.439Z",
+    "__v": 0
+  }
+]

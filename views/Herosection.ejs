@@ -1,0 +1,131 @@
+<%- include('includes/header', { username: admin[0].name, email: admin[0].email }) %>
+
+<div class="body-wrapper">
+  <div class="container-fluid">
+
+    <!-- HEADER -->
+    <div class="card bg-info-subtle shadow-none mb-4">
+      <div class="card-body px-4 py-3">
+        <h4 class="fw-semibold mb-1">Manage Hero Section</h4>
+      </div>
+    </div>
+
+    <!-- ================= HERO FORM ================= -->
+    <div class="card shadow-sm">
+      <div class="card-body p-4">
+
+        <form id="heroSectionForm" enctype="multipart/form-data">
+
+          <!-- HERO ID -->
+          <input type="hidden"
+                 id="heroSectionId"
+                 value="<%= herosection ? herosection._id : '' %>">
+
+          <!-- TITLE -->
+          <div class="mb-3">
+            <label class="form-label fw-medium">
+              Title <span class="text-danger">*</span>
+            </label>
+            <input type="text"
+                   id="heroSectionTitle"
+                   class="form-control"
+                   placeholder="Enter title"
+                   value="<%= herosection ? herosection.title : '' %>"
+                   required>
+
+            <small class="text-muted">
+              <i class="fa-solid fa-circle-info text-primary"></i>
+              Highlight any word using <code>&lt;span&gt;word&lt;/span&gt;</code>
+            </small>
+          </div>
+
+          <!-- DESCRIPTION -->
+          <div class="d-flex justify-content-between align-items-center mb-2">
+            <label class="form-label fw-semibold">
+              Description <span class="text-danger">*</span>
+            </label>
+            <button type="button"
+                    id="generateAIHero"
+                    class="btn btn-sm btn-outline-primary">
+              <i class="fa-solid fa-wand-magic-sparkles me-1"></i>
+              Generate by AI
+            </button>
+          </div>
+
+          <div class="mb-3">
+            <textarea id="heroSectionDescription"
+                      class="form-control"
+                      rows="4"
+                      required><%= herosection ? herosection.description : '' %></textarea>
+          </div>
+
+          <!-- IMAGES -->
+          <div class="row">
+
+            <!-- BACKGROUND IMAGE -->
+            <div class="col-md-6 mb-3">
+              <label class="form-label fw-medium">Background Image<span class="text-danger">*</span></label>
+              <input type="file"
+                     id="heroSectionImage1"
+                     name="backgroundImg"
+                     class="form-control"
+                     accept="image/*">
+ <small class="text-muted d-block mt-1">
+                    <i class="fa-solid fa-circle-info text-primary"></i>
+                    Recommended Size: <strong>1440 x 1384 px</strong>, Formats: <strong>/jpeg|jpg|png|webp/</strong>
+                  </small>
+              <% if (herosection?.backgroundImg) { %>
+                <img id="previewImage1"
+                     src="<%= herosection.backgroundImg %>"
+                     class="img-thumbnail mt-2"
+                     style="max-width:200px;">
+              <% } else { %>
+                <img id="previewImage1"
+                     class="img-thumbnail mt-2"
+                     style="display:none;max-width:200px;">
+              <% } %>
+            </div>
+
+            <!-- MAIN IMAGE -->
+            <div class="col-md-6 mb-3">
+              <label class="form-label fw-medium">Main Image<span class="text-danger">*</span></label>
+              <input type="file"
+                     id="heroSectionImage2"
+                     name="mainImg"
+                     class="form-control"
+                     accept="image/*">
+ <small class="text-muted d-block mt-1">
+                    <i class="fa-solid fa-circle-info text-primary"></i>
+                    Recommended Size: <strong>843 x 843 px</strong>, Formats: <strong>/jpeg|jpg|png|webp/</strong>
+                  </small>
+              <% if (herosection?.mainImg) { %>
+                <img id="previewImage2"
+                     src="<%= herosection.mainImg %>"
+                     class="img-thumbnail mt-2"
+                     style="max-width:200px;">
+              <% } else { %>
+                <img id="previewImage2"
+                     class="img-thumbnail mt-2"
+                     style="display:none;max-width:200px;">
+              <% } %>
+            </div>
+
+          </div>
+
+          <!-- SAVE -->
+          <div class="text-start mt-3">
+            <button type="submit" class="btn btn-primary px-4">
+              Save Hero Section
+            </button>
+          </div>
+
+        </form>
+
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<%- include('includes/allscripts') %>
+<script src="/js/view.js/herosection.js"></script>

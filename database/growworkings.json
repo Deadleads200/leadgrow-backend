@@ -1,0 +1,34 @@
+[
+  {
+    "_id": "694bd072c6e21470d6118565",
+    "title": "Select Your Lead Category",
+    "shortDescription": "Choose the exact lead type your business wants to target.",
+    "createdAt": "2025-12-24T11:37:22.426Z",
+    "updatedAt": "2025-12-29T12:27:34.891Z",
+    "__v": 0
+  },
+  {
+    "_id": "694e4f13ce1075f175c1606c",
+    "title": "Manage Your Data",
+    "shortDescription": "Edit, filter, and refine your data for perfect lead results.",
+    "createdAt": "2025-12-26T09:02:11.180Z",
+    "updatedAt": "2025-12-29T12:28:17.884Z",
+    "__v": 0
+  },
+  {
+    "_id": "694e4f36ce1075f175c1608d",
+    "title": "Generate Using  AI Tech",
+    "shortDescription": "Let advanced AI automatically find and produce accurate targeted leads.",
+    "createdAt": "2025-12-26T09:02:46.648Z",
+    "updatedAt": "2025-12-29T12:30:38.983Z",
+    "__v": 0
+  },
+  {
+    "_id": "694e4f50ce1075f175c16090",
+    "title": "Save Your Generated Leads",
+    "shortDescription": "Download and store your high-quality leads for business use.",
+    "createdAt": "2025-12-26T09:03:12.246Z",
+    "updatedAt": "2025-12-29T12:31:13.700Z",
+    "__v": 0
+  }
+]

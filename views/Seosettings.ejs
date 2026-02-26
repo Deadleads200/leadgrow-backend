@@ -1,0 +1,145 @@
+<%- include('includes/header', { username: admin[0].name, email: admin[0].email }) %>
+
+<div class="body-wrapper">
+  <div class="container-fluid">
+
+    <!-- HEADER -->
+    <div class="card bg-info-subtle shadow-none mb-4">
+      <div class="card-body px-4 py-3">
+        <h4 class="fw-semibold mb-0">Seo Settings</h4>
+      </div>
+    </div>
+
+    <!-- TABS -->
+<div class="card">
+  <div class="card-body">
+
+    <!-- Nav Tabs (Pills Style with Icons) -->
+    <ul class="nav nav-pills flex-column flex-sm-row mt-4" role="tablist">
+      <li class="nav-item flex-sm-fill text-sm-center">
+        <a class="nav-link active d-flex align-items-center justify-content-center"
+           data-bs-toggle="tab"
+           href="#seo-home"
+           role="tab"
+           data-type="home">
+          <i class="ti ti-home-2 fs-5 me-2"></i>
+          <span>Home</span>
+        </a>
+      </li>
+      <li class="nav-item flex-sm-fill text-sm-center">
+        <a class="nav-link d-flex align-items-center justify-content-center"
+           data-bs-toggle="tab"
+           href="#seo-contact"
+           role="tab" 
+           data-type="contact">
+          <i class="ti ti-phone fs-5 me-2"></i>
+          <span>Contact</span>
+        </a>
+      </li>
+      <li class="nav-item flex-sm-fill text-sm-center">
+        <a class="nav-link d-flex align-items-center justify-content-center"
+           data-bs-toggle="tab"
+           href="#seo-blog"
+           role="tab"
+           data-type="blog">
+          <i class="ti ti-notes fs-5 me-2"></i>
+          <span>Blog</span>
+        </a>
+      </li>
+      <li class="nav-item flex-sm-fill text-sm-center">
+        <a class="nav-link d-flex align-items-center justify-content-center"
+           data-bs-toggle="tab"
+           href="#seo-pricing"
+           role="tab" 
+            data-type="pricing">
+          <i class="ti ti-currency-dollar fs-5 me-2"></i>
+          <span>Pricing</span>
+        </a>
+      </li>
+      <li class="nav-item flex-sm-fill text-sm-center">
+        <a class="nav-link d-flex align-items-center justify-content-center"
+           data-bs-toggle="tab"
+           href="#seo-faq"
+           role="tab" 
+            data-type="faq">
+          <i class="ti ti-question-mark fs-5 me-2"></i>
+          <span>How it Work</span>
+        </a>
+      </li>
+    </ul>
+
+    <!-- TAB CONTENT with border and spacing -->
+    <div class="tab-content border mt-2 p-3">
+      <% ['home','pricing','blog','contact','faq'].forEach(page => { %>
+      <div class="tab-pane fade <%= page === 'home' ? 'show active' : '' %>"
+           id="seo-<%= page %>"
+           role="tabpanel">
+
+        <form class="seoForm" data-type="<%= page %>">
+          <input type="hidden" name="type" value="<%= page %>">
+
+          <div class="row">
+            <div class="col-md-12">
+
+              <!-- Generate AI Button -->
+               <div class="d-flex justify-content-between align-items-center mb-2">
+  <label class="form-label fw-semibold">
+   <!-- Review<span class="text-danger">*</span> -->
+  </label>
+  <button type="button"
+          id="generateAIReview"
+          class="btn btn-sm btn-outline-primary generateSEO">
+    <i class="fa-solid fa-wand-magic-sparkles me-1"></i>
+   Generate AI SEO
+  </button>
+</div>
+             
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Meta Title<span class="text-danger">*</span></label>
+                <input type="text"
+                       name="metaTitle"
+                       class="form-control"
+                       placeholder="Enter meta title" required>
+                       
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Meta Keywords<span class="text-danger">*</span></label>
+                <input type="text"
+                       name="metaKeywords"
+                       class="form-control"
+                       placeholder="keyword1, keyword2" required>
+                <small class="text-muted">
+                  Separate keywords by comma (,)
+                </small>
+              </div>
+
+              <div class="mb-3">
+                <label class="form-label fw-semibold">Meta Description<span class="text-danger">*</span></label>
+                <textarea name="metaDescription"
+                          rows="4"
+                          class="form-control"
+                          placeholder="Write meta description..." required></textarea>
+              </div>
+
+              <button type="submit" class="btn btn-primary">
+                Save / Update SEO
+              </button>
+
+            </div>
+          </div>
+        </form>
+
+      </div>
+      <% }) %>
+    </div>
+
+  </div>
+</div>
+
+
+  </div>
+</div>
+
+<%- include('includes/allscripts') %>
+<script src="/js/view.js/seosetting.js"></script>

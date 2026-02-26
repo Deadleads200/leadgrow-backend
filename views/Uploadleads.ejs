@@ -1,0 +1,146 @@
+<%- include('includes/header', { username: admin[0].name, email: admin[0].email }) %>
+
+  <div class="body-wrapper">
+    <div class="container-fluid">
+
+      <!-- Page Header -->
+      <div class="card bg-info-subtle shadow-none position-relative overflow-hidden mb-4">
+        <div class="card-body px-4 py-3">
+          <div class="row align-items-center">
+            <div class="col-md-8">
+              <h4 class="fw-semibold mb-1">Import Lead Data</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Upload Card -->
+      <div class="card shadow-sm">
+        <div class="card-body">
+
+          <form id="uploadLeadForm" action="/leadsuploadexcel" method="POST" enctype="multipart/form-data">
+
+            <div class="row g-4">
+
+              <!-- Category -->
+              <div class="col-md-6">
+                <label class="form-label fw-medium">
+                  Select Category <span class="text-danger">*</span>
+                </label>
+                <select name="categoryId" class="form-select" required>
+                  <option value="" disabled selected>Select Category</option>
+                  <% categories.forEach(cat=> { %>
+                    <option value="<%= cat._id %>">
+                      <%= cat.title %>
+                    </option>
+                    <% }) %>
+                </select>
+              </div>
+
+              <!-- Excel Upload -->
+              <div class="col-md-6">
+                <label class="form-label fw-medium">
+                  Upload Excel File <span class="text-danger">*</span>
+                </label>
+                <input type="file" name="excelFile" class="form-control" accept=".xlsx,.xls" required />
+              </div>
+
+              <!-- Info Box -->
+              <div class="col-12">
+                <div class="alert alert-light border mb-0">
+                  <h6 class="fw-semibold mb-2"> Excel Format Guidelines</h6>
+                  <p class="mb-1 text-muted">
+                    Make sure your Excel file contains the following columns:
+                  </p>
+                  <code>
+                  name, email, phone, website, city, state, country, postcode, street, lat, lon, openinghours
+                </code>
+                  <p class="mt-2 mb-0 text-muted">
+                    • Multiple emails & phones should be comma separated
+                    <br>
+                    • Duplicate emails will be skipped automatically
+                  </p>
+                  <a href="/leaddata.xlsx" download class="btn btn-outline-primary btn-sm mt-3">
+                    <i class="fas fa-download me-2"></i>Download Sample File
+                  </a>
+                </div>
+              </div>
+
+              <!-- Submit Button -->
+              <div class="col-12 text-end">
+                <button type="submit" class="btn btn-primary px-5">
+                  Upload Leads
+                </button>
+              </div>
+
+            </div>
+
+          </form>
+
+        </div>
+      </div>
+
+
+
+
+      <div class="datatables">
+
+
+        <div class="card">
+          <div class="card-body">
+            <div class="table-responsive">
+              <table id="zero_config" class="table table-striped table-bordered text-nowrap align-middle">
+                <thead>
+                  <tr>
+                    <th>Category</th>
+                    <th>Email</th>
+                    <th>Name</th>
+                    <th>City</th>
+                    <th>State</th>
+                    <th>Country</th>
+                    <th class="action-col">Action</th>
+                  </tr>
+                </thead>
+                <tbody>
+
+                </tbody>
+              </table>
+            </div>
+          </div>
+        </div>
+
+
+      </div>
+
+    </div>
+  </div>
+<div class="modal fade" id="leadViewModal" tabindex="-1">
+  <div class="modal-dialog modal-lg modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+
+      <div class="modal-header bg-light-subtle text-white">
+        <h5 class="modal-title">Lead Details</h5>
+        <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="modal"></button>
+      </div>
+
+      <div class="modal-body p-0">
+        <table class="table table-bordered mb-0">
+          <tbody id="leadDetailBody">
+            <tr>
+              <td colspan="2" class="text-center py-4">Loading...</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <div class="modal-footer">
+        <button class="btn btn-light" data-bs-dismiss="modal">Close</button>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+  <%- include('includes/allscripts') %>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="/js/view.js/uploadlead.js"></script>
