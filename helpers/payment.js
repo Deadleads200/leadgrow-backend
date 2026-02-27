@@ -82,13 +82,13 @@ try{
 
   return { url: session.url, gateway: "stripe", transactionId: session.id };
   } catch (error) {
-    console.log("createStripePayment error:--------", error);
+    console.error("createStripePayment error:", error);
   
-  // if (error.type === "StripeInvalidRequestError") {
-  //   throw new Error("Payment amount is too low. Please increase the amount.");
-  // }
+  if (error.type === "StripeInvalidRequestError") {
+    throw new Error("Payment amount is too low. Please increase the amount.");
+  }
 
-  return error; 
+  throw error; 
   }
 };
 

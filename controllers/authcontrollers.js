@@ -2011,23 +2011,8 @@ module.exports.createPayment = async (req, res) => {
     res.json({ success: true, ...paymentData });
 
   } catch (err) {
-    console.log("error:--------", err);
-
-
-  let message = 'Payment failed';
-
-  if (err.type === 'StripeCardError') {
-    message = err.message;
-  } else if (err.type === 'StripeInvalidRequestError') {
-    message = 'Invalid payment request';
-  } else if (err.type === 'StripeAuthenticationError') {
-    message = 'Stripe authentication failed';
-  } else if (err.type === 'StripeAPIError') {
-    message = 'Stripe server error. Try again';
-  } else if (err.type === 'StripeConnectionError') {
-    message = 'Network error. Please retry';
-  }
-    res.status(500).json({ success: false, message: message });
+    console.error(err);
+    res.status(500).json({ success: false, message: err });
   }
 };
 
