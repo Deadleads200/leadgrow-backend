@@ -2012,7 +2012,12 @@ module.exports.createPayment = async (req, res) => {
 
   } catch (err) {
     console.error(err);
-    res.status(500).json({ success: false, message: err });
+    // res.status(500).json({ success: false, message: "Payment creation error" });
+
+    res.status(500).json({
+      success: false,
+      message: err.message || "Payment failed. Please try again."
+    });
   }
 };
 
