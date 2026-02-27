@@ -2011,7 +2011,7 @@ module.exports.createPayment = async (req, res) => {
     res.json({ success: true, ...paymentData });
 
   } catch (err) {
-    console.error(err);
+    console.log("error:--------", err);
 
 
   let message = 'Payment failed';
