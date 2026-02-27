@@ -1099,8 +1099,14 @@ module.exports.savePricingPlan = async (req, res) => {
     } = req.body;
 
 
-    const existingPlan = await PricingPlan.findOne({ planType, _id: { $ne: id } });
-
+     let duplicateQuery = { planType: planType };
+   
+    if (id && id.trim() !== "") {
+        duplicateQuery._id = { $ne: id };
+    }
+ 
+    const existingPlan = await PricingPlan.findOne(duplicateQuery);
+ 
     if (
       existingPlan &&
       (!id || existingPlan._id.toString() !== id) &&
