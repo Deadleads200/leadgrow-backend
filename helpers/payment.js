@@ -88,7 +88,7 @@ try{
   //   throw new Error("Payment amount is too low. Please increase the amount.");
   // }
 
-  throw error; 
+  return error; 
   }
 };
 
