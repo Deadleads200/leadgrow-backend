@@ -82,13 +82,49 @@ try{
 
   return { url: session.url, gateway: "stripe", transactionId: session.id };
   } catch (error) {
-    console.error("createStripePayment error:", error);
-  
-  if (error.type === "StripeInvalidRequestError") {
-    throw new Error("Payment amount is too low. Please increase the amount.");
+   console.error("createStripePayment error:", error);
+
+  // Stripe card error
+  if (error.type === "StripeCardError") {
+    throw new Error(error.message);
   }
 
-  throw error; 
+  // Invalid request errors
+  if (error.type === "StripeInvalidRequestError") {
+
+    if (error.code === "amount_too_small") {
+      throw new Error("Payment amount is too low.");
+    }
+
+    if (error.code === "amount_too_large") {
+      throw new Error("Payment amount is too high.");
+    }
+
+    if (error.code === "invalid_currency") {
+      throw new Error("Invalid currency selected.");
+    }
+
+    if (error.code === "parameter_missing") {
+      throw new Error(`Missing parameter: ${error.param}`);
+    }
+
+    // fallback
+    throw new Error(error.message);
+  }
+
+  if (error.type === "StripeAuthenticationError") {
+    throw new Error("Stripe configuration error. Check API key.");
+  }
+
+  if (error.type === "StripeConnectionError") {
+    throw new Error("Network error while connecting to Stripe.");
+  }
+
+  if (error.type === "StripeAPIError") {
+    throw new Error("Stripe server error. Please try again.");
+  }
+
+  throw new Error("Stripe payment failed. Please try again.");
   }
 };
 
