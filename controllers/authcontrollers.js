@@ -1979,8 +1979,14 @@ module.exports.createPayment = async (req, res) => {
     const userId = req.user._id;
 
     if (!userId || !amount || !currency || !productId || !gateway)
-      return res.status(500).json({ success: false, message: "Missing fields" });
 
+if (!userId) return res.status(500).json({ success: false, message: "Validation failed!! User not authenticated" });
+if (!amount) return res.status(500).json({ success: false, message: "Validation failed!! Amount is required" });
+if (!currency) return res.status(500).json({ success: false, message: "Validation failed!! Currency is required" });
+if (!productId) return res.status(500).json({ success: false, message: "Validation failed!! Product ID is required" });
+if (!gateway) return res.status(500).json({ success: false, message: "Validation failed!! Payment gateway is required" });
+
+      
     let paymentData;
 
     switch (gateway.toLowerCase()) {
