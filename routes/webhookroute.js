@@ -6,7 +6,7 @@ const webhookController = require("../controllers/webhookcontroller");
 // STRIPE 
 router.post(
    "/stripe",
-  bodyParser.raw({ type: "application/json" }),
+  express.raw({ type: "application/json" }),
   webhookController.handleWebhook
 );
 
