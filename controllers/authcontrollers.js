@@ -1979,7 +1979,7 @@ module.exports.createPayment = async (req, res) => {
     const userId = req.user._id;
 
     if (!userId || !amount || !currency || !productId || !gateway)
-      return res.status(200).json({ success: false, message: "Missing fields" });
+      return res.status(500).json({ success: false, message: "Missing fields" });
 
     let paymentData;
 
